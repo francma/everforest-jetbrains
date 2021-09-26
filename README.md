@@ -1,0 +1,2 @@
+# Everforest JetBrains theme
+

@@ -1,0 +1,26 @@
+<idea-plugin>
+    <id>com.francma6.intellij.everforest</id>
+    <name>Everforest Theme</name>
+    <version>0.0.1</version>
+    <vendor email="me@martinfranc.eu" url="https://martinfranc.eu">Martin Franc</vendor>
+
+    <description><![CDATA[
+      Everforest
+    ]]></description>
+
+    <change-notes><![CDATA[
+        <ul>
+            <li><b>0.1</b> Initial release. Basic theme functionality.</li>
+        </ul>
+    ]]>
+    </change-notes>
+
+    <idea-version since-build="191"/>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <themeProvider id="84dc2148-99f5-4a4f-822f-f6d56e44caa0" path="/theme/everforest.theme.json"/>
+    </extensions>
+</idea-plugin>

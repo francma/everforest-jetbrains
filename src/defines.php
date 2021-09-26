@@ -1,0 +1,11 @@
+<?php
+
+define("EFFECT_UNDERSCORED", 0);
+define("EFFECT_BOLD_UNDERSCORED", 1);
+define("EFFECT_UNDERWAVED", 2);
+define("EFFECT_BORDERED", 3);
+define("EFFECT_STRIKEOUT", 4);
+define("EFFECT_DOTTED_LINE", 5);
+
+define("FONT_TYPE_BOLD", 1);
+define("FONT_TYPE_ITALIC", 2);

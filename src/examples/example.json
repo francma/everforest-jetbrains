@@ -1,0 +1,7 @@
+{
+  "hello": "world",
+  "int": 123,
+  "float": 123.4,
+  "array": [1, 2, 3],
+  "boolean": true
+}
