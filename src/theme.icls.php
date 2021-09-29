@@ -75,13 +75,10 @@ require __DIR__ . '/defines.php';
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="576268"/>
     </colors>
     <attributes>
-        <?php
-        require __DIR__ . '/includes/default.icls.php' ?>
-        <?php
-        require __DIR__ . '/includes/general.icls.php' ?>
-        <?php
-        require __DIR__ . '/includes/php.icls.php'; ?>
-        <?php
-        require __DIR__ . '/includes/json.icls.php'; ?>
+        <?php require __DIR__ . '/includes/default.icls.php' ?>
+        <?php require __DIR__ . '/includes/general.icls.php' ?>
+        <?php require __DIR__ . '/includes/php.icls.php'; ?>
+        <?php require __DIR__ . '/includes/json.icls.php'; ?>
+        <?php require __DIR__ . '/includes/xml.icls.php'; ?>
     </attributes>
 </scheme>

@@ -1,6 +1,6 @@
-php_files  := $(wildcard src/**.php)
+SOURCE_FILES = $(shell find src -type f -name "*.php")
 
-theme/everforest.xml: $(php_files)
+theme/everforest.xml: $(SOURCE_FILES)
 	cd src/ && cat pallete.php theme.icls.php | php > ../theme/everforest.xml
 
 clean:
