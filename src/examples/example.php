@@ -59,6 +59,11 @@ final class MyClass
     }
 }
 
+$heredoc = <<<HEREDOC
+hello world
+how it is going?
+HEREDOC;
+
 MyClass::foo();
 
 echo CONSTANT;
