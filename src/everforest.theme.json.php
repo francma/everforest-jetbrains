@@ -4,29 +4,34 @@
   "author": "francam6",
   "editorScheme": "/theme/everforest.xml",
   "colors": {
-    "bg0": "#323d43",
-    "bg1": "#3c474d",
-    "bg2": "#465258",
-    "bg3": "#505a60",
-    "bg4": "#576268",
-    "bg_red": "#e681831a",
-    "bg_orange": "#e39b7b1a",
-    "bg_yellow": "#d9bb801a",
-    "bg_green": "#a7c0801a",
-    "bg_cyan": "#87c0951a",
-    "bg_blue": "#89beba1a",
-    "bg_purple": "#d3a0bc1a",
-    "grey": "#868d80",
-    "fg": "#d8caac",
-    "red": "#e68183",
-    "orange": "#e39b7b",
-    "yellow": "#d9bb80",
-    "green": "#a7c080",
-    "cyan": "#87c095",
-    "blue": "#89beba",
-    "purple": "#d3a0bc"
-  },
-  "ui": {
+    "bg0": "#<?= $bg0 ?>",
+    "bg1": "#<?= $bg1 ?>",
+    "bg2": "#<?= $bg2 ?>",
+    "bg3": "#<?= $bg3 ?>",
+    "bg4": "#<?= $bg4 ?>",
+    "bg5": "#<?= $bg5 ?>",
+    "bg_red": "#<?= $bg_red ?>1a",
+    "bg_orange": "#<?= $bg_orange ?>1a",
+    "bg_yellow": "#<?= $bg_yellow ?>1a",
+    "bg_green": "#<?= $bg_green ?>1a",
+    "bg_cyan": "#<?= $bg_cyan ?>1a",
+    "bg_blue": "#<?= $bg_blue ?>1a",
+    "bg_purple": "#<?= $bg_purple ?>1a",
+    "grey0": "#<?= $grey0 ?>",
+    "grey1": "#<?= $grey1 ?>",
+    "fg": "#<?= $fg ?>",
+    "red": "#<?= $red ?>",
+    "orange": "#<?= $orange ?>",
+    "yellow": "#<?= $yellow ?>",
+    "green": "#<?= $green ?>",
+    "aqua": "#<?= $aqua ?>",
+    "blue": "#<?= $blue ?>",
+    "purple": "#<?= $purple ?>",
+    "statusline1": "#<?= $statusline1 ?>",
+    "statusline2": "#<?= $statusline2 ?>",
+    "statusline3": "#<?= $statusline3 ?>"
+},
+"ui": {
     "*": {
       "acceleratorForeground": "blue",
       "acceleratorSelectionForeground": "blue",
@@ -34,8 +39,8 @@
       "borderColor": "bg1",
       "disabledBackground": "bg0",
       "disabledBorderColor": "bg1",
-      "disabledForeground": "cyan",
-      "disabledText": "cyan",
+      "disabledForeground": "aqua",
+      "disabledText": "aqua",
       "errorForeground": "red",
       "focusColor": "blue",
       "focusedBorderColor": "blue",
@@ -54,7 +59,7 @@
       "selectionForegroundInactive": "bg4",
       "selectionBackgroundInactive": "bg4",
       "separatorColor": "bg1",
-      "separatorForeground": "cyan"
+      "separatorForeground": "aqua"
     },
     "ActionButton": {
       "hoverBackground": "bg1",
@@ -92,7 +97,7 @@
       "selectionForeground": "bg0",
       "ArrowButton": {
         "disabledIconColor": "bg1",
-        "iconColor": "cyan",
+        "iconColor": "aqua",
         "nonEditableBackground": "bg1"
       }
     },
@@ -138,7 +143,7 @@
     "EditorTabs": {
       "borderColor": "bg0",
       "inactiveColoredFileBackground": "bg0",
-      "inactiveUnderlineColor": "cyan",
+      "inactiveUnderlineColor": "aqua",
       "underlineColor": "blue",
       "underlinedTabBackground": "bg1"
     },
@@ -393,7 +398,7 @@
       },
       "GitLog": {
         "headIconColor": "green",
-        "localBranchIconColor": "cyan",
+        "localBranchIconColor": "aqua",
         "otherIconColor": "purple",
         "remoteBranchIconColor": "yellow",
         "tagIconColor": "blue"
@@ -401,12 +406,12 @@
       "HgLog": {
         "bookmarkIconColor": "orange",
         "branchIconColor": "blue",
-        "closedBranchIconColor": "cyan",
+        "closedBranchIconColor": "aqua",
         "headIconColor": "green",
-        "localTagIconColor": "cyan",
+        "localTagIconColor": "aqua",
         "mqTagIconColor": "yellow",
         "tagIconColor": "blue",
-        "tipIconColor": "cyan"
+        "tipIconColor": "aqua"
       },
       "Log": {
         "Commit": {

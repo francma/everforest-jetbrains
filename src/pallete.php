@@ -12,6 +12,10 @@ $bg_green = "445349";
 $bg_blue = "3b5360";
 $bg_yellow = "504f45";
 
+$bg_orange = "e39b7b";
+$bg_cyan = "87c095";
+$bg_purple = "d3a0bc";
+
 $fg = "d3c6aa";
 $red = "e67e80";
 $orange = "e69875";
