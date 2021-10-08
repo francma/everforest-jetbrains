@@ -1,8 +1,8 @@
 {
-  "name": "Everforest",
+  "name": "Everforest - <?= $theme ?>",
   "dark": true,
   "author": "francam6",
-  "editorScheme": "/theme/everforest.xml",
+  "editorScheme": "/theme/everforest_<?= $theme ?>.xml",
   "colors": {
     "bg0": "#<?= $bg0 ?>",
     "bg1": "#<?= $bg1 ?>",

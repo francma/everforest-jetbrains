@@ -203,7 +203,7 @@
 <!-- Named Arguments -->
 <option name="PHP_NAMED_ARGUMENT">
 <value>
-    <option name="FOREGROUND" value="<?= $fg ?>"/>
+    <option name="FOREGROUND" value="<?= $orange ?>"/>
 </value>
 </option>
 <!-- Numbers -->

@@ -3,7 +3,7 @@
 require __DIR__ . '/defines.php';
 
 ?>
-<scheme name="Everforest" version="142" parent_scheme="Darcula">
+<scheme name="Everforest - <?= $theme ?>" version="142" parent_scheme="Darcula">
     <metaInfo>
         <property name="created">2021-09-26T12:41:31</property>
         <property name="ide">PhpStorm</property>

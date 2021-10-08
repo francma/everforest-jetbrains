@@ -1,16 +1,18 @@
 <?php
 
-$bg0 = "2f383e";
-$bg1 = "374247";
-$bg2 = "404c51";
-$bg3 = "4a555b";
-$bg4 = "525c62";
-$bg5 = "596763";
-$bg_visual = "573e4c";
-$bg_red = "544247";
-$bg_green = "445349";
-$bg_blue = "3b5360";
-$bg_yellow = "504f45";
+$theme = "dark_soft";
+
+$bg0 = "323d43";
+$bg1 = "3c474d";
+$bg2 = "465258";
+$bg3 = "505a60";
+$bg4 = "576268";
+$bg5 = "5f6d67";
+$bg_visual = "5d4251";
+$bg_red = "59454b";
+$bg_green = "48584d";
+$bg_blue = "3d5665";
+$bg_yellow = "55544a";
 
 $bg_orange = "e39b7b";
 $bg_cyan = "87c095";
