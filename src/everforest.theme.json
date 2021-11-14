@@ -1,0 +1,100 @@
+{
+  "name": "Everforest - ${theme}",
+  "dark": true,
+  "author": "francam6",
+  "editorScheme": "/theme/everforest_${theme}.xml",
+  "ui": {
+    "*": {
+      "background": "#${bg0}",
+      "foreground": "#${fg}",
+      "infoForeground": "${aqua}",
+      "lightSelectionBackground": "#${bg1}",
+      "selectionBackground": "#${bg1}",
+      "selectionForeground": "#${fg}",
+      "selectionBackgroundInactive": "#${bg1}",
+      "selectedBackground": "#${bg1}",
+      "selectedForeground": "#${fg}",
+      "selectedInactiveBackground": "#${bg1}",
+      "selectedBackgroundInactive": "#${bg1}",
+      "hoverBackground": "#${bg1}",
+      "borderColor": "#${bg4}",
+      "disabledBorderColor": "#${bg4}",
+      "separatorColor": "#${bg1}"
+    },
+    "Borders": {
+      "color": "#${bg2}"
+    },
+    "Button": {
+      "startBackground": "#${bg0}",
+      "endBackground": "#${bg0}",
+      "startBorderColor": "#${bg4}",
+      "endBorderColor": "#${bg4}",
+      "shadowColor": "#1D2021",
+      "default": {
+        "foreground": "#${fg}",
+        "startBackground": "#${bg1}",
+        "endBackground": "#${bg1}",
+        "startBorderColor": "#${blue}",
+        "endBorderColor": "#${blue}",
+        "focusedBorderColor": "#${bg4}"
+      }
+    },
+    "ComboBox": {
+      "nonEditableBackground": "#${bg1}",
+      "ArrowButton": {
+        "iconColor": "#${fg}",
+        "disabledIconColor": "#${fg}",
+        "nonEditableBackground": "#${bg1}"
+      }
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "#${bg1}",
+        "inactiveBackground": "#${bg1}"
+      }
+    },
+    "EditorTabs": {
+      "underlineColor": "#${bg1}",
+      "inactiveColoredFileBackground": "#${bg1}"
+    },
+    "Link": {
+      "activeForeground": "#${blue}",
+      "hoverForeground": "#${blue}",
+      "pressedForeground": "#${blue}",
+      "visitedForeground": "#${blue}"
+    },
+    "Tree": {
+      "selectionBackground": "#${bg1}"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Checkbox.Background.Default.Dark": "#282828",
+      "Checkbox.Border.Default.Dark": "#fbf1c7",
+      "Checkbox.Foreground.Selected.Dark": "#fbf1c7",
+      "Checkbox.Focus.Wide.Dark": "#458588",
+      "Checkbox.Focus.Thin.Default.Dark": "#458588",
+      "Checkbox.Focus.Thin.Selected.Dark": "#458588",
+      "Checkbox.Background.Disabled.Dark": "#282828",
+      "Checkbox.Border.Disabled.Dark": "#a89984",
+      "Checkbox.Foreground.Disabled.Dark": "#a89984",
+      "Actions.Grey": "#928374",
+      "Actions.Red": "#fb4934",
+      "Actions.Yellow": "#fabd2f",
+      "Actions.Green": "#b8bb26",
+      "Actions.Blue": "#83a598",
+      "Actions.GreyInline.Dark": "#fbf1c7",
+      "Objects.Grey": "#928374",
+      "Objects.RedStatus": "#cc241d",
+      "Objects.Red": "#fb4934",
+      "Objects.Pink": "#cb80a4ff",
+      "Objects.Yellow": "#fabd2f",
+      "Objects.Green": "#b8bb26",
+      "Objects.Blue": "#83a598",
+      "Objects.Purple": "#d3869b",
+      "Objects.BlackText": "#1D2021",
+      "Objects.YellowDark": "#d79921",
+      "Objects.GreenAndroid": "#8cbb68"
+    }
+  }
+}

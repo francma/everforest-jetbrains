@@ -28,6 +28,8 @@ final class MyClass
 {
     public string $publicProperty = "ttt";
 
+    public DeprecatedClass $hello;
+
     private string $unusedProperty = "unused\0";
 
     public const HELLO = 25.5;

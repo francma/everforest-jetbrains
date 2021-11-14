@@ -1,0 +1,72 @@
+<scheme name="Everforest - ${theme}" version="142" parent_scheme="Darcula">
+    <metaInfo>
+        <property name="created">2021-09-26T12:41:31</property>
+        <property name="ide">PhpStorm</property>
+        <property name="ideVersion">2021.2.2.0.0</property>
+        <property name="modified">2021-09-26T12:41:34</property>
+        <property name="originalScheme">Everforest</property>
+    </metaInfo>
+    <colors>
+        <option name="ADDED_LINES_COLOR" value="${green}"/>
+        <option name="ANNOTATIONS_COLOR" value="${fg}"/>
+        <option name="CARET_COLOR" value="${fg}"/>
+        <option name="CARET_ROW_COLOR" value="${bg1}"/>
+        <option name="CONSOLE_BACKGROUND_KEY" value="323d43"/>
+        <option name="DELETED_LINES_COLOR" value="${red}"/>
+        <option name="DIAGRAM_ANNOTATION_EDGE" value="${bg_orange}"/>
+        <option name="DIAGRAM_DEFAULT_EDGE" value="${fg}"/>
+        <option name="DIAGRAM_GENERALIZATION_EDGE" value="${blue}"/>
+        <option name="DIAGRAM_INNER_EDGE" value="${yellow}"/>
+        <option name="DIAGRAM_NODE_BACKGROUND" value="3c474d"/>
+        <option name="DIAGRAM_NODE_HEADER" value="3c474d"/>
+        <option name="DIAGRAM_NOTE_BACKGROUND" value="495259"/>
+        <option name="DIAGRAM_NOTE_BORDER" value="495259"/>
+        <option name="DIAGRAM_REALIZATION_EDGE" value="${green}"/>
+        <option name="DIFF_SEPARATORS_BACKGROUND" value="3c474d"/>
+        <option name="DOCUMENTATION_COLOR" value="3c474d"/>
+        <option name="ERROR_HINT" value="495259"/>
+        <option name="FILESTATUS_ADDED" value="${green}"/>
+        <option name="FILESTATUS_DELETED" value="${red}"/>
+        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="3c474d"/>
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="576268"/>
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="${bg_orange}"/>
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="${bg_orange}"/>
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="${bg_orange}"/>
+        <option name="FILESTATUS_MERGED" value="${green}"/>
+        <option name="FILESTATUS_MODIFIED" value="${yellow}"/>
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="${blue}"/>
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="${blue}"/>
+        <option name="FILESTATUS_UNKNOWN" value="${red}"/>
+        <option name="FILESTATUS_addedOutside" value="${green}"/>
+        <option name="FILESTATUS_changelistConflict" value="${bg_orange}"/>
+        <option name="FILESTATUS_modifiedOutside" value="${yellow}"/>
+        <option name="GUTTER_BACKGROUND" value="${bg0}"/>
+        <option name="INDENT_GUIDE" value="${bg2}"/>
+        <option name="INFORMATION_HINT" value="495259"/>
+        <option name="LINE_NUMBERS_COLOR" value="${bg5}"/>
+        <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="${fg}"/>
+        <option name="METHOD_SEPARATORS_COLOR" value=""/>
+        <option name="MODIFIED_LINES_COLOR" value="${yellow}"/>
+        <option name="NOTIFICATION_BACKGROUND" value="3c474d"/>
+        <option name="QUESTION_HINT" value="495259"/>
+        <option name="RECURSIVE_CALL_ATTRIBUTES" value=""/>
+        <option name="RIGHT_MARGIN_COLOR" value="3c474d"/>
+        <option name="SELECTED_INDENT_GUIDE" value="${bg_cyan}"/>
+        <option name="SELECTED_TEARLINE_COLOR" value="495259"/>
+        <option name="SELECTION_BACKGROUND" value="${bg_visual}"/>
+        <option name="SEPARATOR_ABOVE_COLOR" value="3c474d"/>
+        <option name="SEPARATOR_BELOW_COLOR" value="3c474d"/>
+        <option name="SOFT_WRAP_SIGN_COLOR" value="3c474d"/>
+        <option name="TAB_UNDERLINE" value="${blue}"/>
+        <option name="TAB_UNDERLINE_INACTIVE" value="${bg_cyan}"/>
+        <option name="TEARLINE_COLOR" value="${bg5}"/>
+        <option name="VCS_ANNOTATIONS_COLOR_1" value="3c474d"/>
+        <option name="VCS_ANNOTATIONS_COLOR_2" value="3c474d"/>
+        <option name="VCS_ANNOTATIONS_COLOR_3" value="3c474d"/>
+        <option name="VCS_ANNOTATIONS_COLOR_4" value="3c474d"/>
+        <option name="VCS_ANNOTATIONS_COLOR_5" value="3c474d"/>
+        <option name="VISUAL_INDENT_GUIDE" value="3c474d"/>
+        <option name="WHITESPACES" value="576268"/>
+        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="576268"/>
+    </colors>
+    <attributes>

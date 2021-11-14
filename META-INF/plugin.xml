@@ -23,5 +23,6 @@
         <themeProvider id="b3d8012a-5ddd-4068-9166-f1bd8a84cdae" path="/theme/everforest_dark_hard.theme.json"/>
         <themeProvider id="5d923768-ccaf-4f6a-b4d3-d04047e5c87b" path="/theme/everforest_dark_medium.theme.json"/>
         <themeProvider id="e47bfefe-a0f9-468d-aa87-0813daf436fd" path="/theme/everforest_dark_soft.theme.json"/>
+        <themeProvider id="4e8aea2b-093b-40be-87e3-be522baf8e7f" path="/theme/everforest_light_medium.theme.json"/>
     </extensions>
 </idea-plugin>
