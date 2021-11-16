@@ -5,4 +5,5 @@ clean:
 	rm -f theme/* everforest.jar
 
 release: build
-	jar --create --file everforest.jar META-INF theme
+	rm -f everforest.jar
+	zip -r everforest.jar META-INF/ theme/
