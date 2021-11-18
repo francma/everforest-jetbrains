@@ -1,0 +1,273 @@
+<!-- 'this' keyword -->
+<option name="OC.SELFSUPERTHIS">
+    <value>
+        <option name="FOREGROUND" value="${blue}" />
+    </value>
+</option>
+<!-- Bad character -->
+<option name="OC.BADCHARACTER">
+    <value>
+        <option name="BACKGROUND" value="2" />
+    </value>
+</option>
+
+<!-- BRACES AND OPERATORS -->
+<!-- Braces -->
+<option name="OC.BRACES">
+<value>
+    <option name="FOREGROUND" value="${fg}" />
+</value>
+</option>
+<!-- Brackets-->
+<option name="OC.BRACKETS">
+<value>
+    <option name="FOREGROUND" value="${fg}" />
+</value>
+</option>
+<!-- Comma -->
+<option name="OC.COMMA">
+<value>
+    <option name="FOREGROUND" value="${grey1}" />
+</value>
+</option>
+<!-- Dot -->
+<option name="OC.DOT">
+<value>
+    <option name="FOREGROUND" value="${grey1}" />
+</value>
+</option>
+<!-- Opearator sign-->
+<option name="OC.OPERATION_SIGN">
+<value>
+    <option name="FOREGROUND" value="${orange}" />
+</value>
+</option>
+<!-- Overloaded operator-->
+<option name="OC.OVERLOADED_OPERATOR">
+<value>
+    <option name="FOREGROUND" value="${orange}" />
+</value>
+</option>
+<!-- Parentheses-->
+<option name="OC.PARENTHS">
+<value>
+    <option name="FOREGROUND" value="${fg}" />
+</value>
+</option>
+<!-- Semicolon -->
+<option name="OC.SEMICOLON">
+<value>
+    <option name="FOREGROUND" value="${grey1}" />
+</value>
+</option>
+
+<!-- Class/struct/enum/union -->
+<option name="OC.STRUCT_LIKE">
+<value>
+    <option name="FOREGROUND" value="${yellow}" />
+</value>
+</option>
+
+<!-- COMMENTS -->
+<!-- Block comment -->
+<option name="OC.BLOCK_COMMENT">
+<value>
+    <option name="FOREGROUND" value="${grey1}" />
+</value>
+</option>
+<!-- Doxygen Tag -->
+<option name="Doxygen Tag">
+<value>
+    <option name="FOREGROUND" value="${grey1}" />
+</value>
+</option>
+<!-- Doxygen Tag value -->
+<option name="Doxygen Parameter">
+<value>
+    <option name="FOREGROUND" value="${grey1}" />
+</value>
+</option>
+<!-- Doxygen Text -->
+<option name="Doxygen Comment">
+<value>
+    <option name="FOREGROUND" value="${grey1}" />
+</value>
+</option>
+<!-- Line comment -->
+<option name="OC.LINE_COMMENT">
+<value>
+    <option name="FOREGROUND" value="${grey1}" />
+</value>
+</option>
+
+<!-- Concept -->
+<option name="OC.CONCEPT">
+<value>
+    <option name="FOREGROUND" value="${fg}" />
+</value>
+</option>
+<!-- Conditionally not-compiled code -->
+<option name="OC.CONDITIONALLY_NOT_COMPILED">
+<value>
+</value>
+</option>
+<!-- Deduction guide -->
+<option name="OC.DEDUCTION_GUIDE">
+<value>
+    <option name="FOREGROUND" value="${green}" />
+</value>
+</option>
+<!-- Dependent code -->
+<option name="OC.DEPENDENT_CODE">
+<value>
+    <option name="FOREGROUND" value="21" />
+</value>
+</option>
+<!-- Enum constant -->
+<option name="OC.ENUM_CONST">
+<value>
+    <option name="FOREGROUND" value="${fg}" />
+</value>
+</option>
+<!-- Extern variable -->
+<option name="OC.EXTERN_VARIABLE">
+<value>
+    <option name="FOREGROUND" value="${fg}" />
+</value>
+</option>
+<!-- Format specifier in string argument -->
+<option name="OC.FORMAT_TOKEN">
+<value>
+    <option name="FOREGROUND" value="${aqua}" />
+</value>
+</option>
+<!-- Function call -->
+<option name="OC.FUNCTION">
+<value>
+    <option name="FOREGROUND" value="${green}" />
+</value>
+</option>
+<!-- Function declaration -->
+<option name="OC.FUNCTION_DECLARATION">
+<value>
+    <option name="FOREGROUND" value="${green}" />
+</value>
+</option>
+<!-- Global variable -->
+<option name="OC.GLOBAL_VARIABLE">
+<value>
+    <option name="FOREGROUND" value="${fg}" />
+</value>
+</option>
+<!-- Keyword -->
+<option name="OC.KEYWORD">
+<value>
+    <option name="FOREGROUND" value="${red}" />
+</value>
+</option>
+<!-- Label -->
+<option name="OC.LABEL">
+<value>
+    <option name="FOREGROUND" value="${orange}" />
+</value>
+</option>
+<!-- Macro name -->
+<option name="OC.MACRONAME">
+<value>
+    <option name="FOREGROUND" value="${green}" />
+</value>
+</option>
+<!-- Macro parameter -->
+<option name="OC.MACRO_PARAMETER">
+<value>
+    <option name="FOREGROUND" value="${fg}" />
+</value>
+</option>
+<!-- Namespace -->
+<option name="OC.NAMESPACE_LIKE">
+<value>
+    <option name="FOREGROUND" value="${yellow}" />
+</value>
+</option>
+<!-- Number -->
+<option name="OC.NUMBER">
+<value>
+    <option name="FOREGROUND" value="${purple}" />
+</value>
+</option>
+
+<!-- PARAMETERS -->
+<!-- Parameter -->
+<option name="OC.PARAMETER">
+<value>
+    <option name="FOREGROUND" value="${fg}" />
+</value>
+</option>
+
+<!-- PREPROCESSOR -->
+<!-- Directive -->
+<option name="OC.DIRECTIVE">
+<value>
+    <option name="FOREGROUND" value="${red}" />
+</value>
+</option>
+<!-- Header Path -->
+<option name="OC.HEADER_PATH">
+<value>
+    <option name="FOREGROUND" value="${aqua}" />
+</value>
+</option>
+
+<!-- STRING -->
+<!-- Escape sequence invalid -->
+<option name="OC.VALID_STRING_ESCAPE">
+<value>
+    <option name="FOREGROUND" value="${green}" />
+</value>
+</option>
+<!-- Escape sequence valid -->
+<option name="OC.INVALID_STRING_ESCAPE">
+<value>
+    <option name="FOREGROUND" value="${green}" />
+</value>
+</option>
+<!-- String text -->
+<option name="OC.STRING">
+<value>
+    <option name="FOREGROUND" value="${aqua}" />
+</value>
+</option>
+
+<!-- Struct field -->
+<option name="OC.STRUCT_FIELD">
+<value>
+    <option name="FOREGROUND" value="${green}" />
+</value>
+</option>
+<!-- Template type -->
+<option name="OC.TEMPLATE_TYPE">
+<value>
+    <option name="FOREGROUND" value="${yellow}" />
+</value>
+</option>
+<!-- Template value -->
+<option name="OC.TEMPLATE_VALUE">
+<value>
+    <option name="FOREGROUND" value="${fg}" />
+</value>
+</option>
+<!-- Typedef -->
+<option name="OC.TYPEDEF">
+<value>
+    <option name="FOREGROUND" value="${yellow}" />
+</value>
+</option>
+
+<!-- VARIABLES -->
+<!-- Local variable -->
+<option name="OC.LOCAL_VARIABLE">
+<value>
+    <option name="FOREGROUND" value="${fg}" />
+</value>
+</option>
+
