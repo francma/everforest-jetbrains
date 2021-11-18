@@ -27,8 +27,8 @@
         <option name="ERROR_HINT" value="495259"/>
         <option name="FILESTATUS_ADDED" value="${green}"/>
         <option name="FILESTATUS_DELETED" value="${red}"/>
-        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="3c474d"/>
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="576268"/>
+        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="${grey1}"/>
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="${grey1}"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="${bg_orange}"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="${bg_orange}"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="${bg_orange}"/>

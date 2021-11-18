@@ -65,6 +65,14 @@
     },
     "Tree": {
       "selectionBackground": "#${bg1}"
+    },
+    "FileColor": {
+      "Yellow": "#${bg_yellow}",
+      "Green": "#${bg_green}",
+      "Blue": "#${bg_blue}",
+      "Violet": "#${bg_violet}",
+      "Orange": "#${bg_orange}",
+      "Rose": "#${bg_red}"
     }
   },
   "icons": {
