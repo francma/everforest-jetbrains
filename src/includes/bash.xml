@@ -1,0 +1,105 @@
+<option name="BASH.BACKQUOTE">
+<value>
+    <option name="FOREGROUND" value="${fg}" />
+</value>
+</option>
+<option name="BASH.BRACE">
+<value>
+    <option name="FOREGROUND" value="${fg}" />
+</value>
+</option>
+<option name="BASH.PAREN">
+<value>
+    <option name="FOREGROUND" value="${fg}" />
+</value>
+</option>
+<option name="BASH.BRACKET">
+<value>
+    <option name="FOREGROUND" value="${fg}" />
+</value>
+</option>
+<option name="BASH.EXTERNAL_COMMAND">
+<value>
+    <option name="FOREGROUND" value="${green}" />
+</value>
+</option>
+<option name="BASH.SUBSHELL_COMMAND">
+<value>
+    <option name="FOREGROUND" value="${fg}" />
+</value>
+</option>
+<option name="BASH.CONDITIONAL">
+<value>
+    <option name="FOREGROUND" value="${orange}" />
+</value>
+</option>
+<option name="BASH.FUNCTION_DEF_NAME">
+<value>
+    <option name="FOREGROUND" value="${green}" />
+</value>
+</option>
+<option name="BASH.HERE_DOC">
+<value>
+    <option name="FOREGROUND" value="${aqua}" />
+</value>
+</option>
+<option name="BASH.HERE_DOC_END">
+<value>
+    <option name="FOREGROUND" value="${aqua}" />
+</value>
+</option>
+<option name="BASH.HERE_DOC_START">
+<value>
+    <option name="FOREGROUND" value="${grey1}" />
+</value>
+</option>
+<option name="BASH.KEYWORD">
+<value>
+    <option name="FOREGROUND" value="${red}" />
+</value>
+</option>
+<option name="BASH.LINE_COMMENT">
+<value>
+    <option name="FOREGROUND" value="${grey1}" />
+</value>
+</option>
+<option name="BASH.NUMBER">
+<value>
+    <option name="FOREGROUND" value="${purple}" />
+</value>
+</option>
+<option name="BASH.RAW_STRING">
+<value>
+    <option name="FOREGROUND" value="${aqua}" />
+</value>
+</option>
+<option name="BASH.REDIRECTION">
+<value>
+    <option name="FOREGROUND" value="${orange}" />
+</value>
+</option>
+<option name="BASH.SHEBANG">
+<value>
+    <option name="FOREGROUND" value="${grey1}" />
+</value>
+</option>
+<option name="BASH.STRING">
+<value>
+    <option name="FOREGROUND" value="${aqua}" />
+</value>
+</option>
+<option name="BASH.VAR_USE_COMPOSED">
+<value>
+    <option name="FOREGROUND" value="${fg}" />
+</value>
+</option>
+<option name="BASH.VAR_DEF">
+<value>
+    <option name="FOREGROUND" value="${fg}" />
+</value>
+</option>
+<option name="BASH.VAR_USE">
+<value>
+    <option name="FOREGROUND" value="${fg}" />
+</value>
+</option>
