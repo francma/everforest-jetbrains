@@ -7,18 +7,26 @@
     "*": {
       "background": "#${bg0}",
       "foreground": "#${fg}",
+
       "infoForeground": "${aqua}",
+
       "lightSelectionBackground": "#${bg1}",
       "selectionBackground": "#${bg1}",
       "selectionForeground": "#${fg}",
+
       "selectionBackgroundInactive": "#${bg1}",
+      "selectionInactiveBackground": "#${bg1}",
+
       "selectedBackground": "#${bg1}",
       "selectedForeground": "#${fg}",
       "selectedInactiveBackground": "#${bg1}",
       "selectedBackgroundInactive": "#${bg1}",
+
       "hoverBackground": "#${bg1}",
+
       "borderColor": "#${bg4}",
       "disabledBorderColor": "#${bg4}",
+
       "separatorColor": "#${bg1}"
     },
     "Borders": {
@@ -73,6 +81,17 @@
       "Violet": "#${bg_violet}",
       "Orange": "#${bg_orange}",
       "Rose": "#${bg_red}"
+    },
+    "Table": {
+      "stripeColor": "#${bg4}",
+      "lightSelectionForeground": "#${fg}",
+      "lightSelectionInactiveForeground":"#${fg}",
+      "lightSelectionBackground": "#${bg2}",
+      "lightSelectionInactiveBackground":"#${bg}"
+    },
+    "MemoryIndicator": {
+      "allocatedBackground": "#${bg1}",
+      "usedBackground": "#${bg4}"
     }
   },
   "icons": {
