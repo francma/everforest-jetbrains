@@ -1,0 +1,130 @@
+<option name="PY.BRACES">
+    <value>
+        <option name="FOREGROUND" value="#${fg}" />
+    </value>
+</option>
+<option name="PY.BRACKETS">
+<value>
+    <option name="FOREGROUND" value="#${fg}" />
+</value>
+</option>
+<option name="PY.COMMA">
+<value>
+    <option name="FOREGROUND" value="#${grey1}" />
+</value>
+</option>
+<option name="PY.DOT">
+<value>
+    <option name="FOREGROUND" value="#${grey1}" />
+</value>
+</option>
+<option name="PY.OPERATION_SIGN">
+<value>
+    <option name="FOREGROUND" value="#${orange}" />
+</value>
+</option>
+<option name="PY.PARENTHS">
+<value>
+    <option name="FOREGROUND" value="#${fg}" />
+</value>
+</option>
+<option name="PY.BUILTIN_NAME">
+<value>
+    <option name="FOREGROUND" value="#${yellow}" />
+</value>
+</option>
+<option name="PY.CLASS_DEFINITION">
+<value>
+    <option name="FOREGROUND" value="#${yellow}" />
+</value>
+</option>
+<option name="PY.DECORATOR">
+<value>
+    <option name="FOREGROUND" value="#${green}" />
+</value>
+</option>
+<option name="PY.DOC_COMMENT_TAG">
+<value>
+    <option name="FOREGROUND" value="#${fg}" />
+</value>
+</option>
+<option name="PY.DOC_COMMENT">
+<value>
+    <option name="FOREGROUND" value="#${grey1}" />
+</value>
+</option>
+<option name="PY.FUNCTION_CALL">
+<value>
+    <option name="FOREGROUND" value="#${green}" />
+</value>
+</option>
+<option name="PY.FUNC_DEFINITION">
+<value>
+    <option name="FOREGROUND" value="#${green}" />
+</value>
+</option>
+<option name="PY.METHOD_CALL">
+<value>
+    <option name="FOREGROUND" value="#${green}" />
+</value>
+</option>
+<option name="PY.NESTED_FUNC_DEFINITION">
+<value>
+    <option name="FOREGROUND" value="#${green}" />
+</value>
+</option>
+<option name="PY.KEYWORD">
+<value>
+    <option name="FOREGROUND" value="#${red}" />
+</value>
+</option>
+<option name="PY.KEYWORD_ARGUMENT">
+<value>
+    <option name="FOREGROUND" value="#${fg}" />
+</value>
+</option>
+<option name="PY.LINE_COMMENT">
+<value>
+    <option name="FOREGROUND" value="#${grey1}" />
+</value>
+</option>
+<option name="PY.NUMBER">
+<value>
+    <option name="FOREGROUND" value="#${purple}" />
+</value>
+</option>
+<option name="PY.SELF_PARAMETER">
+<value>
+    <option name="FOREGROUND" value="#${blue}" />
+</value>
+</option>
+<option name="PY.PARAMETER">
+<value>
+    <option name="FOREGROUND" value="#${fg}" />
+</value>
+</option>
+<option name="PY.PREDEFINED_DEFINITION">
+<value>
+    <option name="FOREGROUND" value="#${green}" />
+</value>
+</option>
+<option name="PY.PREDEFINED_USAGE">
+<value>
+    <option name="FOREGROUND" value="#${green}" />
+</value>
+</option>
+<option name="PY.STRING.B">
+<value>
+    <option name="FOREGROUND" value="#${aqua}" />
+</value>
+</option>
+<option name="PY.STRING.U">
+<value>
+    <option name="FOREGROUND" value="#${aqua}" />
+</value>
+</option>
+<option name="PY.ANNOTATION">
+    <value>
+        <option name="FOREGROUND" value="#${yellow}" />
+    </value>
+</option>
