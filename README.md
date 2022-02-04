@@ -16,6 +16,8 @@ Only a few languages are supported. Expect broken syntax highlighting if you don
 - PHP
 - XML
 - Bash
+- Markdown
+- Python
 
 ## Installation
 
