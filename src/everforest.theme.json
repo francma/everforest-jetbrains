@@ -1,6 +1,6 @@
 {
   "name": "Everforest - ${theme}",
-  "dark": true,
+  "dark": "${dark}",
   "author": "francam6",
   "editorScheme": "/theme/everforest_${theme}.xml",
   "ui": {
