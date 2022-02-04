@@ -18,6 +18,7 @@ Only a few languages are supported. Expect broken syntax highlighting if you don
 - Bash
 - Markdown
 - Python
+- YAML
 
 ## Installation
 
