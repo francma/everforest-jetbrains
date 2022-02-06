@@ -23,8 +23,6 @@
         <option name="DIAGRAM_NOTE_BORDER" value="495259"/>
         <option name="DIAGRAM_REALIZATION_EDGE" value="${green}"/>
         <option name="DIFF_SEPARATORS_BACKGROUND" value="3c474d"/>
-        <option name="DOCUMENTATION_COLOR" value="3c474d"/>
-        <option name="ERROR_HINT" value="495259"/>
         <option name="FILESTATUS_ADDED" value="${green}"/>
         <option name="FILESTATUS_DELETED" value="${red}"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="${grey1}"/>
@@ -42,13 +40,11 @@
         <option name="FILESTATUS_modifiedOutside" value="${yellow}"/>
         <option name="GUTTER_BACKGROUND" value="${bg0}"/>
         <option name="INDENT_GUIDE" value="${bg2}"/>
-        <option name="INFORMATION_HINT" value="495259"/>
         <option name="LINE_NUMBERS_COLOR" value="${bg5}"/>
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="${fg}"/>
         <option name="METHOD_SEPARATORS_COLOR" value=""/>
         <option name="MODIFIED_LINES_COLOR" value="${yellow}"/>
         <option name="NOTIFICATION_BACKGROUND" value="3c474d"/>
-        <option name="QUESTION_HINT" value="495259"/>
         <option name="RECURSIVE_CALL_ATTRIBUTES" value=""/>
         <option name="RIGHT_MARGIN_COLOR" value="3c474d"/>
         <option name="SELECTED_INDENT_GUIDE" value="${bg_cyan}"/>
@@ -68,5 +64,22 @@
         <option name="VISUAL_INDENT_GUIDE" value="3c474d"/>
         <option name="WHITESPACES" value="576268"/>
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="576268"/>
+
+        <!-- POPUPS AND HINTS -->
+        <!-- Completion -->
+        <option name="LOOKUP_COLOR" value="${bg0}" />
+        <!-- Documentation -->
+        <option name="DOCUMENTATION_COLOR" value="${bg0}" />
+        <!-- Error hint -->
+        <option name="ERROR_HINT" value="${red}" />
+        <!-- Information hint -->
+        <option name="INFORMATION_HINT" value="${blue}" />
+        <!-- Promotion pane -->
+        <option name="PROMOTION_PANE" value="${blue}" />
+        <!-- Question hint -->
+        <option name="QUESTION_HINT" value="${blue}" />
+        <!-- Recent location selection -->
+        <option name="RECENT_LOCATIONS_SELECTION" value="${bg0}" />
+        <!-- Tooltip -->
     </colors>
     <attributes>

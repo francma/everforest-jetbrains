@@ -82,3 +82,11 @@
 </value>
 </option>
 
+<!-- POPUPS AND HINTS -->
+<!-- Code lens -->
+<option name="CODE_LENS_BORDER_COLOR">
+<value>
+    <option name="EFFECT_COLOR" value="${bg2}" />
+</value>
+</option>
+
