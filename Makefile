@@ -7,3 +7,7 @@ clean:
 release: build
 	rm -f everforest.jar
 	zip -r everforest.jar META-INF/ theme/
+
+lint: build
+	xmllint --valid --noout theme/*.xml
+	jq empty theme/*.json

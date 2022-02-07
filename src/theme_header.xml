@@ -1,3 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE scheme [
+        <!ELEMENT scheme (metaInfo|colors|attributes)*>
+        <!ATTLIST scheme
+                name CDATA #REQUIRED
+                version CDATA #REQUIRED
+                parent_scheme CDATA #REQUIRED>
+        <!ELEMENT metaInfo (property)*>
+        <!ELEMENT property (#PCDATA)>
+        <!ATTLIST property
+                name CDATA #REQUIRED>
+        <!ELEMENT colors (option)*>
+        <!ELEMENT option (value)*>
+        <!ATTLIST option
+                name CDATA #REQUIRED
+                value CDATA #IMPLIED>
+        <!ELEMENT attributes (option)*>
+        <!ELEMENT value (option)*>
+        ]>
 <scheme name="Everforest - ${theme}" version="142" parent_scheme="Default">
     <metaInfo>
         <property name="created">2021-09-26T12:41:31</property>
