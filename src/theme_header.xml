@@ -90,8 +90,7 @@
         <!-- Modified lines -->
         <option name="MODIFIED_LINES_COLOR" value="${bg_orange}"/>
         <!-- Whitespace modified lines -->
-        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="${bg_visual}"/>
-
+        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="${bg5}"/>
         <!-- Background 1 -->
         <option name="VCS_ANNOTATIONS_COLOR_1" value="${bg1}"/>
         <!-- Background 2 -->
