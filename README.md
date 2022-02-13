@@ -19,6 +19,7 @@ Only a few languages are supported. Expect broken syntax highlighting if you don
 - Markdown
 - Python
 - YAML
+- JavaScript
 
 ## Installation
 
