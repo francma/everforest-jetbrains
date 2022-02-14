@@ -1,5 +1,7 @@
 # Everforest JetBrains theme
 
+[![Build Status](https://github.com/francma/everforest-jetbrains/workflows/test/badge.svg)](https://github.com/francma/everforest-jetbrains/actions/workflows/test.yml)
+
 The goal of this project is to provide pixel to pixel copy
 of [sainnhe/everforest](https://github.com/sainnhe/everforest)
 theme for JetBrains based IDEs with sane build system (without Java).

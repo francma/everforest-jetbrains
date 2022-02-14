@@ -1,0 +1,30 @@
+name: test
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    container: alpine:3.15
+    steps:
+      - uses: actions/checkout@v2
+      - run: apk update && apk add make gettext jq libxml2-utils
+      - run: make lint
+  build-alpine:
+    runs-on: ubuntu-latest
+    container: alpine:3.15
+    steps:
+      - uses: actions/checkout@v2
+      - run: apk update && apk add make gettext zip
+      - run: make release
+  build-archlinux:
+    runs-on: ubuntu-latest
+    container: archlinux
+    steps:
+      - uses: actions/checkout@v2
+      - run: pacman -Syu --noconfirm && pacman -S --noconfirm make gettext zip
+      - run: make release
