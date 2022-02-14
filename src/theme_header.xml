@@ -110,13 +110,13 @@
         <!-- Documentation -->
         <option name="DOCUMENTATION_COLOR" value="${bg0}" />
         <!-- Error hint -->
-        <option name="ERROR_HINT" value="${red}" />
+        <option name="ERROR_HINT" value="${bg_red}" />
         <!-- Information hint -->
-        <option name="INFORMATION_HINT" value="${blue}" />
+        <option name="INFORMATION_HINT" value="${bg_blue}" />
         <!-- Promotion pane -->
-        <option name="PROMOTION_PANE" value="${blue}" />
+        <option name="PROMOTION_PANE" value="${bg_blue}" />
         <!-- Question hint -->
-        <option name="QUESTION_HINT" value="${blue}" />
+        <option name="QUESTION_HINT" value="${bg_blue}" />
         <!-- Recent location selection -->
         <option name="RECENT_LOCATIONS_SELECTION" value="${bg0}" />
         <!-- Tooltip -->
