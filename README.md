@@ -36,27 +36,54 @@ Install dependencies:
 
 All above is most likely already included in base of your Linux distribution.
 
-To build the "everforest.jar" theme, just run:
+To build the theme, just run:
 
 ```shell
 make release
 ```
 
-Go to "Setting > Plugins > Gear icon next to Installed > Install plugin from disk" and locate the "everforest.jar" file.
+Go to Plugins and locate the `everforest.jar` file.
 
 ## Contribution guide
 
-All colors should match to how it looks in neovim with everforest theme selected and
+All colors should match to how it looks in neovim with Everforest theme selected and
 [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) enabled. There are example files for each language
 in `examples` folder.
 
-### Adding new language
+If unsure on what color to use for elements not present in vim, you can take a look at [Color Pallete and Highlighting Semantics](https://github.com/antoineco/sainnhe-everforest/blob/palette/palette.md).
 
-Start by creating `<language>.xml` inside `src/includes` folder and then find the corresponding XML properties. A good
-way to do this is to go to "IDE Settings > Editor > Color Scheme > Your language" and then change all colors to
-something that is easy to find (for example change all colors to `#000001`, `#000002` and so on). Now you can click on the
-gear icon next to the Theme name and choose export to .icls. Then you can open the .icls file and easily find which XML
-value key corresponds to the IDE color setting.
+### Adding a new language
 
-It is required to not use inhered values (by un-ticking the "Inherit values from"), to prevent random breakage when
-parent color is changed.
+The goal is to have `<language>.xml` file inside `src/includes` folder in the following format:
+
+```xml
+<!-- BRACES AND OPERATORS -->
+<!-- Braces -->
+<option name="PHP_BRACES">
+<value>
+    <option name="FOREGROUND" value="${fg}"/>
+</value>
+</option>
+<!-- Brackets -->
+<option name="PHP_BRACKETS">
+<value>
+    <option name="FOREGROUND" value="${fg}"/>
+</value>
+</option>
+
+<!-- CLASSES AND PROPERTIES -->
+<!-- Class -->
+<option name="PHP_CLASS">
+<value>
+    <option name="FOREGROUND" value="${yellow}"/>
+</value>
+</option>
+```
+
+Where the CAPITALIZED comments correspond to foldable categories.
+Make sure to have `<options>` in the same order as they are in the IDE setting window.
+Leave "Inherit values from" unticked to prevent random breakage of colors when changing the parent colors.
+
+## License
+
+ISC, see [LICENSE](/LICENSE).
