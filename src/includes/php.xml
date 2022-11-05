@@ -1,7 +1,7 @@
 <!-- Attributes -->
 <option name="PHP_ATTRIBUTE">
     <value>
-        <option name="FOREGROUND" value="${green}"/>
+        <option name="FOREGROUND" value="${purple}"/>
     </value>
 </option>
 
@@ -47,31 +47,31 @@
 <!-- Class -->
 <option name="PHP_CLASS">
 <value>
-    <option name="FOREGROUND" value="${green}"/>
+    <option name="FOREGROUND" value="${yellow}"/>
 </value>
 </option>
 <!-- Instance property -->
 <option name="PHP_INSTANCE_FIELD">
 <value>
-    <option name="FOREGROUND" value="${green}"/>
+    <option name="FOREGROUND" value="${fg}"/>
 </value>
 </option>
 <!-- Interface -->
 <option name="PHP_INTERFACE">
 <value>
-    <option name="FOREGROUND" value="${green}"/>
+    <option name="FOREGROUND" value="${yellow}"/>
 </value>
 </option>
 <!-- Private Instance Property -->
 <option name="PHP_PRIVATE_INSTANCE_FIELD">
 <value>
-    <option name="FOREGROUND" value="${green}"/>
+    <option name="FOREGROUND" value="${fg}"/>
 </value>
 </option>
 <!-- Protected Instance Property -->
 <option name="PHP_PROTECTED_INSTANCE_FIELD">
 <value>
-    <option name="FOREGROUND" value="${green}"/>
+    <option name="FOREGROUND" value="${fg}"/>
 </value>
 </option>
 <!-- Static Property -->
@@ -142,7 +142,7 @@
 <!-- Heredoc ID -->
 <option name="PHP_HEREDOC_ID">
 <value>
-    <option name="FOREGROUND" value="${aqua}"/>
+    <option name="FOREGROUND" value="${fg}"/>
 </value>
 </option>
 
@@ -162,12 +162,24 @@
 <!-- Constant -->
 <option name="PHP_CONSTANT">
 <value>
-    <option name="FOREGROUND" value="${green}"/>
+    <option name="FOREGROUND" value="${fg}"/>
 </value>
 </option>
-<!-- TODO Default -->
-<!-- TODO Goto Label -->
-<!-- TODO Magic Member Access -->
+<!-- Default -->
+<option name="PHP_IDENTIFIER">
+<value>
+    <option name="FOREGROUND" value="${yellow}"/>
+</value>
+</option>
+<!-- Goto Label -->
+<option name="GOTO_LABEL">
+<value>
+    <option name="FOREGROUND" value="${orange}"/>
+</value>
+</option>
+<option name="MAGIC_MEMBER_ACCESS">
+    <value/>
+</option>
 <!-- Predefined symbols -->
 <option name="PHP_PREDEFINED SYMBOL">
 <value>
@@ -214,7 +226,10 @@
 </option>
 
 <!-- PHP CODE -->
-<!-- TODO Background -->
+<!-- Background -->
+<option name="PHP_SCRIPTING_BACKGROUND">
+    <value/>
+</option>
 <!-- Tags -->
 <option name="PHP_TAG">
 <value>
@@ -227,36 +242,52 @@
 <option name="PHP_DOC_IDENTIFIER">
 <value>
     <option name="FOREGROUND" value="${grey1}"/>
-    <option name="FONT_TYPE" value="2"/>
 </value>
 </option>
-<!-- TODO Markup -->
-<!-- TODO Method Declaration -->
+<!-- Markup -->
+<option name="PHP_MARKUP_ID">
+<value>
+    <option name="FOREGROUND" value="${grey1}"/>
+</value>
+</option>
+<!-- Method Declaration -->
+<option name="PHP_DOC_METHOD_IDENTIFIER">
+<value>
+    <option name="FOREGROUND" value="${grey1}"/>
+</value>
+</option>
 <!-- Parameter -->
 <option name="PHP_DOC_PARAMETER">
 <value>
     <option name="FOREGROUND" value="${grey1}"/>
-    <option name="FONT_TYPE" value="${FONT_TYPE_ITALIC}"/>
 </value>
 </option>
 <!-- Tag -->
 <option name="PHP_DOC_TAG">
 <value>
-    <option name="FOREGROUND" value="${fg}"/>
-    <option name="FONT_TYPE" value="${FONT_TYPE_ITALIC}"/>
+    <option name="FOREGROUND" value="${grey1}"/>
 </value>
 </option>
-<!-- TODO Text -->
+<!-- Text -->
+<option name="PHP_DOC_COMMENT_ID">
+<value>
+    <option name="FOREGROUND" value="${grey1}"/>
+</value>
+</option>
 <!-- Variable -->
 <option name="PHP_DOC_VAR">
 <value>
     <option name="FOREGROUND" value="${grey1}"/>
-    <option name="FONT_TYPE" value="${FONT_TYPE_ITALIC}"/>
 </value>
 </option>
 
 <!-- TODO Semantic Highlight -->
-<!-- TODO Shell Command -->
+<!-- Shell Command -->
+<option name="PHP_EXEC_COMMAND_ID">
+<value>
+    <option name="FOREGROUND" value="${green}"/>
+</value>
+</option>
 
 <!-- STRINGS -->
 <!-- Characters -->
@@ -265,11 +296,14 @@
     <option name="FOREGROUND" value="${aqua}"/>
 </value>
 </option>
-<!-- TODO Concatenation -->
+<!-- Concatenation -->
+<option name="PHP_CONCATENATION">
+    <value/>
+</option>
 <!-- Escape Sequences -->
 <option name="PHP_ESCAPE_SEQUENCE">
 <value>
-    <option name="FOREGROUND" value="${fg}"/>
+    <option name="FOREGROUND" value="${yellow}"/>
 </value>
 </option>
 
@@ -280,28 +314,3 @@
 </value>
 </option>
 
-
-
-
-
-<option name="PHP_DOC_COMMENT_ID">
-<value>
-    <option name="FOREGROUND" value="${grey1}"/>
-</value>
-</option>
-<option name="PHP_EXEC_COMMAND_ID">
-<value>
-    <option name="FOREGROUND" value="${green}"/>
-    <option name="EFFECT_TYPE" value="4"/>
-</value>
-</option>
-<option name="PHP_IDENTIFIER">
-<value>
-    <option name="FOREGROUND" value="${green}"/>
-</value>
-</option>
-<option name="PHP_MARKUP_ID">
-<value>
-    <option name="FOREGROUND" value="${green}"/>
-</value>
-</option>
