@@ -1,7 +1,7 @@
 {
   "name": "Everforest - ${theme}",
   "dark": "${dark}",
-  "author": "francam6",
+  "author": "Martin Franc",
   "editorScheme": "/theme/everforest_${theme}.xml",
   "ui": {
     "*": {

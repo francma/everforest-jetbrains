@@ -18,13 +18,6 @@
         <!ELEMENT value (option)*>
         ]>
 <scheme name="Everforest - ${theme}" version="142" parent_scheme="Default">
-    <metaInfo>
-        <property name="created">2021-09-26T12:41:31</property>
-        <property name="ide">PhpStorm</property>
-        <property name="ideVersion">2021.2.2.0.0</property>
-        <property name="modified">2021-09-26T12:41:34</property>
-        <property name="originalScheme">Everforest</property>
-    </metaInfo>
     <colors>
         <option name="CARET_COLOR" value="${fg}"/>
         <option name="CARET_ROW_COLOR" value="${bg1}"/>

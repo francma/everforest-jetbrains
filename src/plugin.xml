@@ -1,19 +1,13 @@
 <idea-plugin>
-    <id>com.francma6.intellij.everforest</id>
+    <id>com.francma.intellij.everforest</id>
     <name>Everforest Theme</name>
-    <version>0.0.1</version>
+    <version>${VERSION}</version>
     <vendor email="me@martinfranc.eu" url="https://martinfranc.eu">Martin Franc</vendor>
 
     <description><![CDATA[
-      Everforest
+        Port of <a href="https://github.com/sainnhe/everforest">sainnhe/everforest</a> theme for JetBrains based IDEs.
+        This project is currently WIP, take look at <a href="https://github.com/francma/everforest-jetbrains">README.md</a> for details.
     ]]></description>
-
-    <change-notes><![CDATA[
-        <ul>
-            <li><b>0.1</b> Initial release. Basic theme functionality.</li>
-        </ul>
-    ]]>
-    </change-notes>
 
     <idea-version since-build="191"/>
 
