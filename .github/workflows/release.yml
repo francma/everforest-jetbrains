@@ -1,0 +1,34 @@
+name: release
+
+on:
+  push:
+    tags:
+      - "v[0-9]+.[0-9]+"
+
+jobs:
+  release:
+    name: Upload Release Asset
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/create-release@v1
+        id: create_release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: true
+      - run: |
+          make release
+          echo build/*.jar | xargs printf "ASSET_PATH=%s\n" >> $GITHUB_ENV
+          echo build/*.jar | xargs basename | xargs printf "ASSET_NAME=%s\n" >> $GITHUB_ENV
+      - uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ${{ env.ASSET_PATH }}
+          asset_name: ${{ env.ASSET_NAME }}
+          asset_content_type: application/java-archive
