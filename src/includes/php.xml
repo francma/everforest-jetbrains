@@ -156,7 +156,7 @@
 <!-- Alias Reference -->
 <option name="PHP_ALIAS_REFERENCE">
 <value>
-    <option name="FOREGROUND" value="${green}"/>
+    <option name="FOREGROUND" value="${yellow}"/>
 </value>
 </option>
 <!-- Constant -->

@@ -1,6 +1,7 @@
 <?php
 
 use JetBrains\PhpStorm\ArrayShape;
+use DateTimeImmutable as AliasedDateTimeImmutable;
 
 $globalVariable = 1;
 
@@ -72,6 +73,8 @@ $heredoc = <<<HEREDOC
 hello world
 how it is going?
 HEREDOC;
+
+$datetime = new AliasedDateTimeImmutable();
 
 MyClass::foo();
 
