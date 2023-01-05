@@ -21,7 +21,7 @@
     <colors>
         <option name="CARET_COLOR" value="${fg}"/>
         <option name="CARET_ROW_COLOR" value="${bg1}"/>
-        <option name="CONSOLE_BACKGROUND_KEY" value="323d43"/>
+        <option name="CONSOLE_BACKGROUND_KEY" value="{bg0}"/>
         <option name="DIAGRAM_ANNOTATION_EDGE" value="${bg_blue}"/>
         <option name="DIAGRAM_DEFAULT_EDGE" value="${fg}"/>
         <option name="DIAGRAM_GENERALIZATION_EDGE" value="${blue}"/>
