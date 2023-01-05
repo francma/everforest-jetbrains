@@ -1,0 +1,154 @@
+<!-- ANSI colors and Console -->
+<option name="CONSOLE_BLACK_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${bg_dim}" />
+    <option name="BACKGROUND" value="${bg_dim}" />
+  </value>
+</option>
+<option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${blue}" />
+    <option name="BACKGROUND" value="${blue}" />
+  </value>
+</option>
+<option name="CONSOLE_BLUE_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${bg_blue}" />
+    <option name="BACKGROUND" value="${bg_blue}" />
+  </value>
+</option>
+<option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${aqua}" />
+    <option name="BACKGROUND" value="${aqua}" />
+  </value>
+</option>
+<option name="CONSOLE_CYAN_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${bg5}" />
+    <option name="BACKGROUND" value="${bg5}" />
+  </value>
+</option>
+<option name="CONSOLE_DARKGRAY_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${bg0}" />
+    <option name="BACKGROUND" value="${bg0}" />
+  </value>
+</option>
+<option name="CONSOLE_ERROR_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${red}" />
+  </value>
+</option>
+<option name="CONSOLE_GRAY_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${grey0}" />
+    <option name="BACKGROUND" value="${grey0}" />
+  </value>
+</option>
+<option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${green}" />
+    <option name="BACKGROUND" value="${green}" />
+  </value>
+</option>
+<option name="CONSOLE_GREEN_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${bg_green}" />
+    <option name="BACKGROUND" value="${bg_green}" />
+  </value>
+</option>
+<option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${purple}" />
+    <option name="BACKGROUND" value="${purple}" />
+  </value>
+</option>
+<option name="CONSOLE_MAGENTA_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${bg_visual}" />
+    <option name="BACKGROUND" value="${bg_visual}" />
+  </value>
+</option>
+<option name="CONSOLE_NORMAL_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${fg}" />
+  </value>
+</option>
+<option name="CONSOLE_RED_BRIGHT_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${red}" />
+    <option name="BACKGROUND" value="${red}" />
+  </value>
+</option>
+<option name="CONSOLE_RED_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${bg_red}" />
+    <option name="BACKGROUND" value="${bg_red}" />
+  </value>
+</option>
+<option name="CONSOLE_SYSTEM_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${blue}" />
+  </value>
+</option>
+<option name="CONSOLE_USER_INPUT">
+  <value>
+    <option name="FOREGROUND" value="${green}" />
+  </value>
+</option>
+<option name="CONSOLE_WHITE_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${fg}" />
+    <option name="BACKGROUND" value="${fg}" />
+  </value>
+</option>
+<option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${yellow}" />
+    <option name="BACKGROUND" value="${yellow}" />
+  </value>
+</option>
+<option name="CONSOLE_YELLOW_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${bg_yellow}" />
+    <option name="BACKGROUND" value="${bg_yellow}" />
+  </value>
+</option>
+<!-- Log console -->
+<option name="LOG_DEBUG_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${aqua}" />
+  </value>
+</option>
+<option name="LOG_ERROR_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${red}" />
+  </value>
+</option>
+<option name="LOG_EXPIRED_ENTRY">
+  <value>
+    <option name="FOREGROUND" value="${grey1}" />
+  </value>
+</option>
+<option name="LOG_INFO_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${green}" />
+  </value>
+</option>
+<option name="LOG_VERBOSE_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${blue}" />
+  </value>
+</option>
+<option name="LOG_WARNING_OUTPUT">
+  <value>
+    <option name="FOREGROUND" value="${orange}" />
+  </value>
+</option>
+<!-- Terminal -->
+<option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
+  <value>
+    <option name="BACKGROUND" value="${bg2}" />
+  </value>
+</option>
