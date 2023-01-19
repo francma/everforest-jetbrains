@@ -48,6 +48,13 @@
         <option name="FILESTATUS_changelistConflict" value="${bg_blue}"/>
         <option name="FILESTATUS_modifiedOutside" value="${yellow}"/>
         <option name="INDENT_GUIDE" value="${bg2}"/>
+        <option name="JUPYTER.CELL_UNDER_CARET_COMMAND_MODE_STRIPE_COLOR" value="${green}"/>
+        <option name="JUPYTER.CELL_UNDER_CARET_EDITOR_MODE_STRIPE_COLOR" value="${yellow}"/>
+        <option name="JUPYTER.CODE_CELL_BACKGROUND" value="${bg0}"/>
+        <option name="JUPYTER.GUTTER_INPUT_EXECUTION_COUNT" value="${blue}"/>
+        <option name="JUPYTER.GUTTER_OUTPUT_EXECUTION_COUNT" value="${purple}"/>
+        <option name="JUPYTER.PROGRESS_STATUS_RUNNING_COLOR" value="${blue}"/>
+        <option name="JUPYTER.SAUSAGE_BUTTON_BORDER_COLOR" value="${bg4}"/>
         <option name="LINE_NUMBERS_COLOR" value="${bg5}"/>
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="${fg}"/>
         <option name="METHOD_SEPARATORS_COLOR" value=""/>
