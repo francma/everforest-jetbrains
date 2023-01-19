@@ -57,6 +57,7 @@
         <option name="SELECTED_INDENT_GUIDE" value="${bg_blue}"/>
         <option name="SELECTED_TEARLINE_COLOR" value="495259"/>
         <option name="SELECTION_BACKGROUND" value="${bg_visual}"/>
+        <option name="SELECTION_FOREGROUND" value="${fg}"/>
         <option name="SEPARATOR_ABOVE_COLOR" value="3c474d"/>
         <option name="SEPARATOR_BELOW_COLOR" value="3c474d"/>
         <option name="SOFT_WRAP_SIGN_COLOR" value="3c474d"/>
