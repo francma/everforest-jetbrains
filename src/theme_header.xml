@@ -21,7 +21,7 @@
     <colors>
         <option name="CARET_COLOR" value="${fg}"/>
         <option name="CARET_ROW_COLOR" value="${bg1}"/>
-        <option name="CONSOLE_BACKGROUND_KEY" value="323d43"/>
+        <option name="CONSOLE_BACKGROUND_KEY" value="${bg0}"/>
         <option name="DIAGRAM_ANNOTATION_EDGE" value="${bg_blue}"/>
         <option name="DIAGRAM_DEFAULT_EDGE" value="${fg}"/>
         <option name="DIAGRAM_GENERALIZATION_EDGE" value="${blue}"/>
@@ -48,6 +48,13 @@
         <option name="FILESTATUS_changelistConflict" value="${bg_blue}"/>
         <option name="FILESTATUS_modifiedOutside" value="${yellow}"/>
         <option name="INDENT_GUIDE" value="${bg2}"/>
+        <option name="JUPYTER.CELL_UNDER_CARET_COMMAND_MODE_STRIPE_COLOR" value="${green}"/>
+        <option name="JUPYTER.CELL_UNDER_CARET_EDITOR_MODE_STRIPE_COLOR" value="${yellow}"/>
+        <option name="JUPYTER.CODE_CELL_BACKGROUND" value="${bg0}"/>
+        <option name="JUPYTER.GUTTER_INPUT_EXECUTION_COUNT" value="${blue}"/>
+        <option name="JUPYTER.GUTTER_OUTPUT_EXECUTION_COUNT" value="${purple}"/>
+        <option name="JUPYTER.PROGRESS_STATUS_RUNNING_COLOR" value="${blue}"/>
+        <option name="JUPYTER.SAUSAGE_BUTTON_BORDER_COLOR" value="${bg4}"/>
         <option name="LINE_NUMBERS_COLOR" value="${bg5}"/>
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="${fg}"/>
         <option name="METHOD_SEPARATORS_COLOR" value=""/>
@@ -57,6 +64,7 @@
         <option name="SELECTED_INDENT_GUIDE" value="${bg_blue}"/>
         <option name="SELECTED_TEARLINE_COLOR" value="495259"/>
         <option name="SELECTION_BACKGROUND" value="${bg_visual}"/>
+        <option name="SELECTION_FOREGROUND" value="${fg}"/>
         <option name="SEPARATOR_ABOVE_COLOR" value="3c474d"/>
         <option name="SEPARATOR_BELOW_COLOR" value="3c474d"/>
         <option name="SOFT_WRAP_SIGN_COLOR" value="3c474d"/>
