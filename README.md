@@ -46,7 +46,7 @@ Go to Plugins and locate the `everforest.jar` file.
 
 ## Contribution guide
 
-All colors should match to how it looks in neovim with Everforest theme selected and
+All colors should match to how it looks in [NeoVim with Everforest theme](https://github.com/sainnhe/everforest) selected and
 [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) enabled. There are example files for each language
 in `examples` folder.
 
