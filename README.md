@@ -10,7 +10,7 @@ theme for JetBrains based IDEs with sane build system (without Java).
 
 ## Current status
 
-Only a few languages are supported. Expect broken syntax highlighting if you don't use language from the list below.
+Only a few languages are supported. Expect broken syntax highlighting if you don't use the programming languages from the list below.
 
 - C
 - C++
