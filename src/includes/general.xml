@@ -1,220 +1,222 @@
-<!-- CODE -->
-<!-- Identifier under caret -->
-<option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
-    <value>
-        <option name="BACKGROUND" value="${bg2}"/>
-    </value>
-</option>
-<!-- Identifier under caret (write) -->
-<option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
-<value>
-    <option name="BACKGROUND" value="${bg2}"/>
-</value>
-</option>
-<!-- Injected language fragment -->
-<option name="INJECTED_LANGUAGE_FRAGMENT">
-<value/>
-</option>
-<!-- Line number -->
-<!-- see LINE_NUMBERS_COLOR -->
-<!-- Line number on caret row -->
-<!-- see LINE_NUMBERS_COLOR_ON_CARET_ROW_COLOR -->
-<!-- Matched brace -->
-<option name="MATCHED_BRACE_ATTRIBUTES">
-<value>
-    <option name="BACKGROUND" value="${bg4}" />
-</value>
-</option>
-<!-- Method separator color -->
-<!-- Todo defaults -->
-<option name="TODO_DEFAULT_ATTRIBUTES">
-<value>
-    <option name="FOREGROUND" value="${grey1}" />
-</value>
-</option>
-<!-- Unmatched brace -->
-<option name="UNMATCHED_BRACE_ATTRIBUTES">
-<value>
-    <option name="FOREGROUND" value="${red}" />
-</value>
-</option>
+<attributes>
+    <!-- CODE -->
+    <!-- Identifier under caret -->
+    <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+        <value>
+            <option name="BACKGROUND" value="<%= ${bg2} %>"/>
+        </value>
+    </option>
+    <!-- Identifier under caret (write) -->
+    <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+        <value>
+            <option name="BACKGROUND" value="<%= ${bg2} %>"/>
+        </value>
+    </option>
+    <!-- Injected language fragment -->
+    <option name="INJECTED_LANGUAGE_FRAGMENT">
+        <value/>
+    </option>
+    <!-- Line number -->
+    <!-- see LINE_NUMBERS_COLOR -->
+    <!-- Line number on caret row -->
+    <!-- see LINE_NUMBERS_COLOR_ON_CARET_ROW_COLOR -->
+    <!-- Matched brace -->
+    <option name="MATCHED_BRACE_ATTRIBUTES">
+        <value>
+            <option name="BACKGROUND" value="<%= ${bg4} %>"/>
+        </value>
+    </option>
+    <!-- Method separator color -->
+    <!-- Todo defaults -->
+    <option name="TODO_DEFAULT_ATTRIBUTES">
+        <value>
+            <option name="FOREGROUND" value="<%= ${grey1} %>"/>
+        </value>
+    </option>
+    <!-- Unmatched brace -->
+    <option name="UNMATCHED_BRACE_ATTRIBUTES">
+        <value>
+            <option name="FOREGROUND" value="<%= ${red} %>"/>
+        </value>
+    </option>
 
-<option name="TEXT">
-<value>
-    <option name="FOREGROUND" value="${fg}"/>
-    <option name="BACKGROUND" value="${bg0}"/>
-    <option name="EFFECT_TYPE" value="5"/>
-</value>
-</option>
-
-
-<!-- EDITOR -->
-<!-- ====== -->
-
-<!-- Caret -->
-<!-- see CARET_COLOR -->
-
-<!-- Caret row -->
-<!-- see CARET_ROW_COLOR -->
-
-<!-- ERRORS AND WARNINGS -->
-<!-- Deprecated symbol -->
-<option name="DEPRECATED_ATTRIBUTES">
-<value>
-    <option name="EFFECT_COLOR" value="${grey1}" />
-    <option name="EFFECT_TYPE" value="${EFFECT_STRIKEOUT}" />
-</value>
-</option>
-<!-- Deprecated symbol marked for removal -->
-<option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
-<value>
-    <option name="EFFECT_COLOR" value="${red}" />
-    <option name="EFFECT_TYPE" value="${EFFECT_STRIKEOUT}" />
-</value>
-</option>
-<!-- Duplicate from server -->
-<option name="DUPLICATE_FROM_SERVER">
-<value/>
-</option>
-<!-- Error -->
-<option name="ERRORS_ATTRIBUTES">
-<value>
-    <option name="EFFECT_COLOR" value="${red}" />
-    <option name="ERROR_STRIPE_COLOR" value="${bg_red}" />
-    <option name="EFFECT_TYPE" value="${EFFECT_UNDERWAVED}" />
-</value>
-</option>
-<!-- Grammar error (something like typo) -->
-<option name="GRAMMAR_ERROR">
-<value>
-    <option name="EFFECT_COLOR" value="${green}" />
-    <option name="EFFECT_TYPE" value="${EFFECT_UNDERWAVED}" />
-</value>
-</option>
-<!-- Problem from server -->
-<option name="GENERIC_SERVER_ERROR_OR_WARNING">
-<value>
-    <option name="EFFECT_COLOR" value="${red}" />
-    <option name="ERROR_STRIPE_COLOR" value="${bg_red}" />
-    <option name="EFFECT_TYPE" value="${EFFECT_UNDERWAVED}" />
-</value>
-</option>
-<!-- Runtime error -->
-<option name="RUNTIME_ERROR">
-<value>
-    <option name="EFFECT_COLOR" value="${red}" />
-    <option name="ERROR_STRIPE_COLOR" value="${bg_red}" />
-    <option name="EFFECT_TYPE" value="${EFFECT_DOTTED_LINE}" />
-</value>
-</option>
-<!-- Text style error -->
-<option name="TEXT_STYLE_ERROR">
-<value>
-    <option name="EFFECT_COLOR" value="${red}" />
-    <option name="EFFECT_TYPE" value="${EFFECT_DOTTED_LINE}" />
-</value>
-</option>
-<!-- Text style suggestion -->
-<option name="TEXT_STYLE_SUGGESTION">
-<value>
-    <option name="EFFECT_COLOR" value="${aqua}" />
-    <option name="EFFECT_TYPE" value="${EFFECT_DOTTED_LINE}" />
-</value>
-</option>
-<!-- Text style warning -->
-<option name="TEXT_STYLE_WARNING">
-<value>
-    <option name="EFFECT_COLOR" value="${yellow}" />
-    <option name="EFFECT_TYPE" value="${EFFECT_DOTTED_LINE}" />
-</value>
-</option>
-<!-- Typo -->
-<option name="TYPO">
-<value>
-    <option name="EFFECT_COLOR" value="${green}" />
-    <option name="EFFECT_TYPE" value="${EFFECT_UNDERWAVED}" />
-</value>
-</option>
-<!-- Unknown symbol -->
-<option name="WRONG_REFERENCES_ATTRIBUTES">
-<value>
-    <option name="EFFECT_COLOR" value="${red}" />
-    <option name="ERROR_STRIPE_COLOR" value="${bg_red}" />
-    <option name="EFFECT_TYPE" value="${EFFECT_UNDERWAVED}" />
-</value>
-</option>
-<!-- Unused code -->
-<option name="NOT_USED_ELEMENT_ATTRIBUTES">
-<value>
-    <option name="EFFECT_COLOR" value="${grey1}" />
-    <option name="EFFECT_TYPE" value="${EFFECT_UNDERWAVED}" />
-</value>
-</option>
-<!-- Warning -->
-<option name="WARNING_ATTRIBUTES">
-<value>
-    <option name="EFFECT_COLOR" value="${yellow}" />
-    <option name="ERROR_STRIPE_COLOR" value="${bg_yellow}" />
-    <option name="EFFECT_TYPE" value="${EFFECT_UNDERWAVED}" />
-</value>
-</option>
-<!-- Weak warning -->
-<option name="INFO_ATTRIBUTES">
-<value>
-    <option name="EFFECT_COLOR" value="${yellow}" />
-    <option name="ERROR_STRIPE_COLOR" value="${bg_yellow}" />
-    <option name="EFFECT_TYPE" value="${EFFECT_UNDERWAVED}" />
-</value>
-</option>
+    <option name="TEXT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${fg} %>"/>
+            <option name="BACKGROUND" value="<%= ${bg0} %>"/>
+            <option name="EFFECT_TYPE" value="5"/>
+        </value>
+    </option>
 
 
-<!-- POPUPS AND HINTS -->
-<!-- Code lens -->
-<option name="CODE_LENS_BORDER_COLOR">
-<value>
-    <option name="EFFECT_COLOR" value="${bg2}" />
-</value>
-</option>
+    <!-- EDITOR -->
+    <!-- ====== -->
 
-<!-- SEARCH RESULTS -->
-<!-- Search result -->
-<option name="SEARCH_RESULT_ATTRIBUTES">
-<value>
-    <option name="FOREGROUND" value="${bg0}" />
-    <option name="BACKGROUND" value="${green}" />
-</value>
-</option>
-<!-- Search result (write access) -->
-<option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
-<value>
-    <option name="FOREGROUND" value="${bg0}" />
-    <option name="BACKGROUND" value="${red}" />
-</value>
-</option>
-<!-- Text search result -->
-<option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
-<value>
-    <option name="FOREGROUND" value="${bg0}" />
-    <option name="BACKGROUND" value="${green}" />
-</value>
-</option>
+    <!-- Caret -->
+    <!-- see CARET_COLOR -->
 
-<!-- LIVE TEMPLATES -->
-<!-- Active segment -->
-<option name="LIVE_TEMPLATE_ATTRIBUTES">
-<value>
-    <option name="EFFECT_COLOR" value="${red}" />
-</value>
-</option>
-<!-- Inactive segment -->
-<option name="LIVE_TEMPLATE_INACTIVE_SEGMENT">
-<value>
-    <option name="EFFECT_COLOR" value="${grey1}" />
-</value>
-</option>
-<!-- Template variable -->
-<option name="TEMPLATE_VARIABLE_ATTRIBUTES">
-<value>
-    <option name="FOREGROUND" value="${grey1}" />
-</value>
-</option>
+    <!-- Caret row -->
+    <!-- see CARET_ROW_COLOR -->
+
+    <!-- ERRORS AND WARNINGS -->
+    <!-- Deprecated symbol -->
+    <option name="DEPRECATED_ATTRIBUTES">
+        <value>
+            <option name="EFFECT_COLOR" value="<%= ${grey1} %>"/>
+            <option name="EFFECT_TYPE" value="<%= ${EFFECT_STRIKEOUT} %>"/>
+        </value>
+    </option>
+    <!-- Deprecated symbol marked for removal -->
+    <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
+        <value>
+            <option name="EFFECT_COLOR" value="<%= ${red} %>"/>
+            <option name="EFFECT_TYPE" value="<%= ${EFFECT_STRIKEOUT} %>"/>
+        </value>
+    </option>
+    <!-- Duplicate from server -->
+    <option name="DUPLICATE_FROM_SERVER">
+        <value/>
+    </option>
+    <!-- Error -->
+    <option name="ERRORS_ATTRIBUTES">
+        <value>
+            <option name="EFFECT_COLOR" value="<%= ${red} %>"/>
+            <option name="ERROR_STRIPE_COLOR" value="<%= ${bg_red} %>"/>
+            <option name="EFFECT_TYPE" value="<%= ${EFFECT_UNDERWAVED} %>"/>
+        </value>
+    </option>
+    <!-- Grammar error (something like typo) -->
+    <option name="GRAMMAR_ERROR">
+        <value>
+            <option name="EFFECT_COLOR" value="<%= ${green} %>"/>
+            <option name="EFFECT_TYPE" value="<%= ${EFFECT_UNDERWAVED} %>"/>
+        </value>
+    </option>
+    <!-- Problem from server -->
+    <option name="GENERIC_SERVER_ERROR_OR_WARNING">
+        <value>
+            <option name="EFFECT_COLOR" value="<%= ${red} %>"/>
+            <option name="ERROR_STRIPE_COLOR" value="<%= ${bg_red} %>"/>
+            <option name="EFFECT_TYPE" value="<%= ${EFFECT_UNDERWAVED} %>"/>
+        </value>
+    </option>
+    <!-- Runtime error -->
+    <option name="RUNTIME_ERROR">
+        <value>
+            <option name="EFFECT_COLOR" value="<%= ${red} %>"/>
+            <option name="ERROR_STRIPE_COLOR" value="<%= ${bg_red} %>"/>
+            <option name="EFFECT_TYPE" value="<%= ${EFFECT_DOTTED_LINE} %>"/>
+        </value>
+    </option>
+    <!-- Text style error -->
+    <option name="TEXT_STYLE_ERROR">
+        <value>
+            <option name="EFFECT_COLOR" value="<%= ${red} %>"/>
+            <option name="EFFECT_TYPE" value="<%= ${EFFECT_DOTTED_LINE} %>"/>
+        </value>
+    </option>
+    <!-- Text style suggestion -->
+    <option name="TEXT_STYLE_SUGGESTION">
+        <value>
+            <option name="EFFECT_COLOR" value="<%= ${aqua} %>"/>
+            <option name="EFFECT_TYPE" value="<%= ${EFFECT_DOTTED_LINE} %>"/>
+        </value>
+    </option>
+    <!-- Text style warning -->
+    <option name="TEXT_STYLE_WARNING">
+        <value>
+            <option name="EFFECT_COLOR" value="<%= ${yellow} %>"/>
+            <option name="EFFECT_TYPE" value="<%= ${EFFECT_DOTTED_LINE} %>"/>
+        </value>
+    </option>
+    <!-- Typo -->
+    <option name="TYPO">
+        <value>
+            <option name="EFFECT_COLOR" value="<%= ${green} %>"/>
+            <option name="EFFECT_TYPE" value="<%= ${EFFECT_UNDERWAVED} %>"/>
+        </value>
+    </option>
+    <!-- Unknown symbol -->
+    <option name="WRONG_REFERENCES_ATTRIBUTES">
+        <value>
+            <option name="EFFECT_COLOR" value="<%= ${red} %>"/>
+            <option name="ERROR_STRIPE_COLOR" value="<%= ${bg_red} %>"/>
+            <option name="EFFECT_TYPE" value="<%= ${EFFECT_UNDERWAVED} %>"/>
+        </value>
+    </option>
+    <!-- Unused code -->
+    <option name="NOT_USED_ELEMENT_ATTRIBUTES">
+        <value>
+            <option name="EFFECT_COLOR" value="<%= ${grey1} %>"/>
+            <option name="EFFECT_TYPE" value="<%= ${EFFECT_UNDERWAVED} %>"/>
+        </value>
+    </option>
+    <!-- Warning -->
+    <option name="WARNING_ATTRIBUTES">
+        <value>
+            <option name="EFFECT_COLOR" value="<%= ${yellow} %>"/>
+            <option name="ERROR_STRIPE_COLOR" value="<%= ${bg_yellow} %>"/>
+            <option name="EFFECT_TYPE" value="<%= ${EFFECT_UNDERWAVED} %>"/>
+        </value>
+    </option>
+    <!-- Weak warning -->
+    <option name="INFO_ATTRIBUTES">
+        <value>
+            <option name="EFFECT_COLOR" value="<%= ${yellow} %>"/>
+            <option name="ERROR_STRIPE_COLOR" value="<%= ${bg_yellow} %>"/>
+            <option name="EFFECT_TYPE" value="<%= ${EFFECT_UNDERWAVED} %>"/>
+        </value>
+    </option>
+
+
+    <!-- POPUPS AND HINTS -->
+    <!-- Code lens -->
+    <option name="CODE_LENS_BORDER_COLOR">
+        <value>
+            <option name="EFFECT_COLOR" value="<%= ${bg2} %>"/>
+        </value>
+    </option>
+
+    <!-- SEARCH RESULTS -->
+    <!-- Search result -->
+    <option name="SEARCH_RESULT_ATTRIBUTES">
+        <value>
+            <option name="FOREGROUND" value="<%= ${bg0} %>"/>
+            <option name="BACKGROUND" value="<%= ${green} %>"/>
+        </value>
+    </option>
+    <!-- Search result (write access) -->
+    <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
+        <value>
+            <option name="FOREGROUND" value="<%= ${bg0} %>"/>
+            <option name="BACKGROUND" value="<%= ${red} %>"/>
+        </value>
+    </option>
+    <!-- Text search result -->
+    <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
+        <value>
+            <option name="FOREGROUND" value="<%= ${bg0} %>"/>
+            <option name="BACKGROUND" value="<%= ${green} %>"/>
+        </value>
+    </option>
+
+    <!-- LIVE TEMPLATES -->
+    <!-- Active segment -->
+    <option name="LIVE_TEMPLATE_ATTRIBUTES">
+        <value>
+            <option name="EFFECT_COLOR" value="<%= ${red} %>"/>
+        </value>
+    </option>
+    <!-- Inactive segment -->
+    <option name="LIVE_TEMPLATE_INACTIVE_SEGMENT">
+        <value>
+            <option name="EFFECT_COLOR" value="<%= ${grey1} %>"/>
+        </value>
+    </option>
+    <!-- Template variable -->
+    <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
+        <value>
+            <option name="FOREGROUND" value="<%= ${grey1} %>"/>
+        </value>
+    </option>
+</attributes>

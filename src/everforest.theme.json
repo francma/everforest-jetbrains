@@ -1,97 +1,97 @@
 {
-  "name": "Everforest - ${theme}",
-  "dark": "${dark}",
+  "name": "Everforest - <%= ${theme} %>",
+  "dark": "<%= ${dark} %>",
   "author": "Martin Franc",
-  "editorScheme": "/theme/everforest_${theme}.xml",
+  "editorScheme": "/theme/everforest_<%= ${theme} %>.xml",
   "ui": {
     "*": {
-      "background": "#${bg0}",
-      "foreground": "#${fg}",
+      "background": "#<%= ${bg0} %>",
+      "foreground": "#<%= ${fg} %>",
 
-      "infoForeground": "${aqua}",
+      "infoForeground": "<%= ${aqua} %>",
 
-      "lightSelectionBackground": "#${bg1}",
-      "selectionBackground": "#${bg1}",
-      "selectionForeground": "#${fg}",
+      "lightSelectionBackground": "#<%= ${bg1} %>",
+      "selectionBackground": "#<%= ${bg1} %>",
+      "selectionForeground": "#<%= ${fg} %>",
 
-      "selectionBackgroundInactive": "#${bg1}",
-      "selectionInactiveBackground": "#${bg1}",
+      "selectionBackgroundInactive": "#<%= ${bg1} %>",
+      "selectionInactiveBackground": "#<%= ${bg1} %>",
 
-      "selectedBackground": "#${bg1}",
-      "selectedForeground": "#${fg}",
-      "selectedInactiveBackground": "#${bg1}",
-      "selectedBackgroundInactive": "#${bg1}",
+      "selectedBackground": "#<%= ${bg1} %>",
+      "selectedForeground": "#<%= ${fg} %>",
+      "selectedInactiveBackground": "#<%= ${bg1} %>",
+      "selectedBackgroundInactive": "#<%= ${bg1} %>",
 
-      "hoverBackground": "#${bg1}",
+      "hoverBackground": "#<%= ${bg1} %>",
 
-      "borderColor": "#${bg4}",
-      "disabledBorderColor": "#${bg4}",
+      "borderColor": "#<%= ${bg4} %>",
+      "disabledBorderColor": "#<%= ${bg4} %>",
 
-      "separatorColor": "#${bg1}"
+      "separatorColor": "#<%= ${bg1} %>"
     },
     "Borders": {
-      "color": "#${bg2}"
+      "color": "#<%= ${bg2} %>"
     },
     "Button": {
-      "startBackground": "#${bg0}",
-      "endBackground": "#${bg0}",
-      "startBorderColor": "#${bg4}",
-      "endBorderColor": "#${bg4}",
+      "startBackground": "#<%= ${bg0} %>",
+      "endBackground": "#<%= ${bg0} %>",
+      "startBorderColor": "#<%= ${bg4} %>",
+      "endBorderColor": "#<%= ${bg4} %>",
       "shadowColor": "#1D2021",
       "default": {
-        "foreground": "#${fg}",
-        "startBackground": "#${bg1}",
-        "endBackground": "#${bg1}",
-        "startBorderColor": "#${blue}",
-        "endBorderColor": "#${blue}",
-        "focusedBorderColor": "#${bg4}"
+        "foreground": "#<%= ${fg} %>",
+        "startBackground": "#<%= ${bg1} %>",
+        "endBackground": "#<%= ${bg1} %>",
+        "startBorderColor": "#<%= ${blue} %>",
+        "endBorderColor": "#<%= ${blue} %>",
+        "focusedBorderColor": "#<%= ${bg4} %>"
       }
     },
     "ComboBox": {
-      "nonEditableBackground": "#${bg1}",
+      "nonEditableBackground": "#<%= ${bg1} %>",
       "ArrowButton": {
-        "iconColor": "#${fg}",
-        "disabledIconColor": "#${fg}",
-        "nonEditableBackground": "#${bg1}"
+        "iconColor": "#<%= ${fg} %>",
+        "disabledIconColor": "#<%= ${fg} %>",
+        "nonEditableBackground": "#<%= ${bg1} %>"
       }
     },
     "ToolWindow": {
       "Header": {
-        "background": "#${bg1}",
-        "inactiveBackground": "#${bg1}"
+        "background": "#<%= ${bg1} %>",
+        "inactiveBackground": "#<%= ${bg1} %>"
       }
     },
     "EditorTabs": {
-      "underlineColor": "#${bg1}",
-      "inactiveColoredFileBackground": "#${bg1}"
+      "underlineColor": "#<%= ${bg1} %>",
+      "inactiveColoredFileBackground": "#<%= ${bg1} %>"
     },
     "Link": {
-      "activeForeground": "#${blue}",
-      "hoverForeground": "#${blue}",
-      "pressedForeground": "#${blue}",
-      "visitedForeground": "#${blue}"
+      "activeForeground": "#<%= ${blue} %>",
+      "hoverForeground": "#<%= ${blue} %>",
+      "pressedForeground": "#<%= ${blue} %>",
+      "visitedForeground": "#<%= ${blue} %>"
     },
     "Tree": {
-      "selectionBackground": "#${bg1}"
+      "selectionBackground": "#<%= ${bg1} %>"
     },
     "FileColor": {
-      "Yellow": "#${bg_yellow}",
-      "Green": "#${bg_green}",
-      "Blue": "#${bg_blue}",
-      "Violet": "#${bg_violet}",
-      "Orange": "#${bg_orange}",
-      "Rose": "#${bg_red}"
+      "Yellow": "#<%= ${bg_yellow} %>",
+      "Green": "#<%= ${bg_green} %>",
+      "Blue": "#<%= ${bg_blue} %>",
+      "Violet": "#<%= ${bg_blue} %>",
+      "Orange": "#<%= ${bg_yellow} %>",
+      "Rose": "#<%= ${bg_red} %>"
     },
     "Table": {
-      "stripeColor": "#${bg4}",
-      "lightSelectionForeground": "#${fg}",
-      "lightSelectionInactiveForeground":"#${fg}",
-      "lightSelectionBackground": "#${bg2}",
-      "lightSelectionInactiveBackground":"#${bg}"
+      "stripeColor": "#<%= ${bg4} %>",
+      "lightSelectionForeground": "#<%= ${fg} %>",
+      "lightSelectionInactiveForeground":"#<%= ${fg} %>",
+      "lightSelectionBackground": "#<%= ${bg2} %>",
+      "lightSelectionInactiveBackground":"#<%= ${bg1} %>"
     },
     "MemoryIndicator": {
-      "allocatedBackground": "#${bg1}",
-      "usedBackground": "#${bg4}"
+      "allocatedBackground": "#<%= ${bg1} %>",
+      "usedBackground": "#<%= ${bg4} %>"
     }
   },
   "icons": {

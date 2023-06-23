@@ -31,7 +31,6 @@ Install dependencies:
 
 - POSIX shell
 - GNU Make
-- envsubst (part of GNU gettext)
 - zip
 
 All above is most likely already included in base of your Linux distribution.
@@ -61,13 +60,13 @@ The goal is to have `<language>.xml` file inside `src/includes` folder in the fo
 <!-- Braces -->
 <option name="PHP_BRACES">
 <value>
-    <option name="FOREGROUND" value="${fg}"/>
+    <option name="FOREGROUND" value="<%= ${fg} %>"/>
 </value>
 </option>
 <!-- Brackets -->
 <option name="PHP_BRACKETS">
 <value>
-    <option name="FOREGROUND" value="${fg}"/>
+    <option name="FOREGROUND" value="<%= ${fg} %>"/>
 </value>
 </option>
 
@@ -75,7 +74,7 @@ The goal is to have `<language>.xml` file inside `src/includes` folder in the fo
 <!-- Class -->
 <option name="PHP_CLASS">
 <value>
-    <option name="FOREGROUND" value="${yellow}"/>
+    <option name="FOREGROUND" value="<%= ${yellow} %>"/>
 </value>
 </option>
 ```

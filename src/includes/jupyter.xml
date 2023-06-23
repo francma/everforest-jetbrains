@@ -1,18 +1,20 @@
-<option name="JUPYTER.SAUSAGE_BUTTON_APPEARANCE">
-  <value>
-    <option name="FOREGROUND" value="${fg}" />
-    <option name="BACKGROUND" value="${bg2}" />
-  </value>
-</option>
-<option name="JUPYTER_INLINE_VALUES">
-  <value>
-    <option name="FOREGROUND" value="${grey2}" />
-    <option name="FONT_TYPE" value="2" />
-  </value>
-</option>
-<option name="JUPYTER_SELECTED_CELL">
-  <value>
-    <option name="FOREGROUND" value="${fg}" />
-    <option name="BACKGROUND" value="${bg2}" />
-  </value>
-</option>
+<attributes>
+    <option name="JUPYTER.SAUSAGE_BUTTON_APPEARANCE">
+        <value>
+            <option name="FOREGROUND" value="<%= ${fg} %>"/>
+            <option name="BACKGROUND" value="<%= ${bg2} %>"/>
+        </value>
+    </option>
+    <option name="JUPYTER_INLINE_VALUES">
+        <value>
+            <option name="FOREGROUND" value="<%= ${grey1} %>"/>
+            <option name="FONT_TYPE" value="2"/>
+        </value>
+    </option>
+    <option name="JUPYTER_SELECTED_CELL">
+        <value>
+            <option name="FOREGROUND" value="<%= ${fg} %>"/>
+            <option name="BACKGROUND" value="<%= ${bg2} %>"/>
+        </value>
+    </option>
+</attributes>
