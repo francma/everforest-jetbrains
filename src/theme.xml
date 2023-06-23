@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE scheme [
+        <!ELEMENT scheme (metaInfo|colors|attributes)*>
+        <!ATTLIST scheme
+                name CDATA #REQUIRED
+                version CDATA #REQUIRED
+                parent_scheme CDATA #REQUIRED>
+        <!ELEMENT metaInfo (property)*>
+        <!ELEMENT property (#PCDATA)>
+        <!ATTLIST property
+                name CDATA #REQUIRED>
+        <!ELEMENT colors (option)*>
+        <!ELEMENT option (value)*>
+        <!ATTLIST option
+                name CDATA #REQUIRED
+                value CDATA #IMPLIED>
+        <!ELEMENT attributes (option)*>
+        <!ELEMENT value (option)*>
+        ]>
+<scheme name="Everforest - <%= ${theme} %>" version="142" parent_scheme="Default">
+    <colors>
+        <option name="CARET_COLOR" value="<%= ${fg} %>"/>
+        <option name="CARET_ROW_COLOR" value="<%= ${bg1} %>"/>
+        <option name="CONSOLE_BACKGROUND_KEY" value="<%= ${bg0} %>"/>
+        <option name="DIAGRAM_ANNOTATION_EDGE" value="<%= ${bg_blue} %>"/>
+        <option name="DIAGRAM_DEFAULT_EDGE" value="<%= ${fg} %>"/>
+        <option name="DIAGRAM_GENERALIZATION_EDGE" value="<%= ${blue} %>"/>
+        <option name="DIAGRAM_INNER_EDGE" value="<%= ${yellow} %>"/>
+        <option name="DIAGRAM_NODE_BACKGROUND" value="3c474d"/>
+        <option name="DIAGRAM_NODE_HEADER" value="3c474d"/>
+        <option name="DIAGRAM_NOTE_BACKGROUND" value="495259"/>
+        <option name="DIAGRAM_NOTE_BORDER" value="495259"/>
+        <option name="DIAGRAM_REALIZATION_EDGE" value="<%= ${green} %>"/>
+        <option name="DIFF_SEPARATORS_BACKGROUND" value="3c474d"/>
+        <option name="FILESTATUS_ADDED" value="<%= ${green} %>"/>
+        <option name="FILESTATUS_DELETED" value="<%= ${red} %>"/>
+        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="<%= ${grey1} %>"/>
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="<%= ${grey1} %>"/>
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="<%= ${bg_blue} %>"/>
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="<%= ${bg_blue} %>"/>
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="<%= ${bg_blue} %>"/>
+        <option name="FILESTATUS_MERGED" value="<%= ${green} %>"/>
+        <option name="FILESTATUS_MODIFIED" value="<%= ${yellow} %>"/>
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="<%= ${blue} %>"/>
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="<%= ${blue} %>"/>
+        <option name="FILESTATUS_UNKNOWN" value="<%= ${red} %>"/>
+        <option name="FILESTATUS_addedOutside" value="<%= ${green} %>"/>
+        <option name="FILESTATUS_changelistConflict" value="<%= ${bg_blue} %>"/>
+        <option name="FILESTATUS_modifiedOutside" value="<%= ${yellow} %>"/>
+        <option name="INDENT_GUIDE" value="<%= ${bg2} %>"/>
+        <option name="JUPYTER.CELL_UNDER_CARET_COMMAND_MODE_STRIPE_COLOR" value="<%= ${green} %>"/>
+        <option name="JUPYTER.CELL_UNDER_CARET_EDITOR_MODE_STRIPE_COLOR" value="<%= ${yellow} %>"/>
+        <option name="JUPYTER.CODE_CELL_BACKGROUND" value="<%= ${bg0} %>"/>
+        <option name="JUPYTER.GUTTER_INPUT_EXECUTION_COUNT" value="<%= ${blue} %>"/>
+        <option name="JUPYTER.GUTTER_OUTPUT_EXECUTION_COUNT" value="<%= ${purple} %>"/>
+        <option name="JUPYTER.PROGRESS_STATUS_RUNNING_COLOR" value="<%= ${blue} %>"/>
+        <option name="JUPYTER.SAUSAGE_BUTTON_BORDER_COLOR" value="<%= ${bg4} %>"/>
+        <option name="LINE_NUMBERS_COLOR" value="<%= ${bg5} %>"/>
+        <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="<%= ${fg} %>"/>
+        <option name="METHOD_SEPARATORS_COLOR" value=""/>
+        <option name="NOTIFICATION_BACKGROUND" value="3c474d"/>
+        <option name="RECURSIVE_CALL_ATTRIBUTES" value=""/>
+        <option name="RIGHT_MARGIN_COLOR" value="3c474d"/>
+        <option name="SELECTED_INDENT_GUIDE" value="<%= ${bg_blue} %>"/>
+        <option name="SELECTED_TEARLINE_COLOR" value="495259"/>
+        <option name="SELECTION_BACKGROUND" value="<%= ${bg_visual} %>"/>
+        <option name="SELECTION_FOREGROUND" value="<%= ${fg} %>"/>
+        <option name="SEPARATOR_ABOVE_COLOR" value="3c474d"/>
+        <option name="SEPARATOR_BELOW_COLOR" value="3c474d"/>
+        <option name="SOFT_WRAP_SIGN_COLOR" value="3c474d"/>
+        <option name="TAB_UNDERLINE" value="<%= ${blue} %>"/>
+        <option name="TAB_UNDERLINE_INACTIVE" value="<%= ${bg_blue} %>"/>
+        <option name="TEARLINE_COLOR" value="<%= ${bg5} %>"/>
+        <option name="VISUAL_INDENT_GUIDE" value="3c474d"/>
+        <option name="WHITESPACES" value="576268"/>
+
+        <!-- VCS -->
+        <!-- Editor gutter -->
+        <option name="GUTTER_BACKGROUND" value="<%= ${bg0} %>"/>
+        <!-- Added ignored lines border -->
+        <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="<%= ${bg2} %>"/>
+        <!-- Added lines -->
+        <option name="ADDED_LINES_COLOR" value="<%= ${bg_green} %>"/>
+        <!-- Border -->
+        <!-- Deleted ignored lines border -->
+        <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="<%= ${bg2} %>"/>
+        <!-- Deleted lines -->
+        <option name="DELETED_LINES_COLOR" value="<%= ${bg_red} %>"/>
+        <!-- Modified ignored lines border -->
+        <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="<%= ${bg2} %>"/>
+        <!-- Modified lines -->
+        <option name="MODIFIED_LINES_COLOR" value="<%= ${bg_blue} %>"/>
+        <!-- Whitespace modified lines -->
+        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="<%= ${bg5} %>"/>
+        <!-- Background 1 -->
+        <option name="VCS_ANNOTATIONS_COLOR_1" value="<%= ${bg1} %>"/>
+        <!-- Background 2 -->
+        <option name="VCS_ANNOTATIONS_COLOR_2" value="<%= ${bg2} %>"/>
+        <!-- Background 3 -->
+        <option name="VCS_ANNOTATIONS_COLOR_3" value="<%= ${bg3} %>"/>
+        <!-- Background 4 -->
+        <option name="VCS_ANNOTATIONS_COLOR_4" value="<%= ${bg4} %>"/>
+        <!-- Background 4 -->
+        <option name="VCS_ANNOTATIONS_COLOR_5" value="<%= ${bg5} %>"/>
+        <!-- Foreground -->
+        <option name="ANNOTATIONS_COLOR" value="<%= ${fg} %>"/>
+
+        <!-- POPUPS AND HINTS -->
+        <!-- Completion -->
+        <option name="LOOKUP_COLOR" value="<%= ${bg0} %>"/>
+        <!-- Documentation -->
+        <option name="DOCUMENTATION_COLOR" value="<%= ${bg0} %>"/>
+        <!-- Error hint -->
+        <option name="ERROR_HINT" value="<%= ${bg_red} %>"/>
+        <!-- Information hint -->
+        <option name="INFORMATION_HINT" value="<%= ${bg_blue} %>"/>
+        <!-- Promotion pane -->
+        <option name="PROMOTION_PANE" value="<%= ${bg_blue} %>"/>
+        <!-- Question hint -->
+        <option name="QUESTION_HINT" value="<%= ${bg_blue} %>"/>
+        <!-- Recent location selection -->
+        <option name="RECENT_LOCATIONS_SELECTION" value="<%= ${bg0} %>"/>
+        <!-- Tooltip -->
+    </colors>
+    <attributes>
+        <% for file in src/includes/*; do %>
+        <% $ESH "$file" | sed 's/.*attributes>$//' %>
+        <% done %>
+    </attributes>
+</scheme>

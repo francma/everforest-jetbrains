@@ -3,4 +3,4 @@ set -eu
 
 export $(cat $@ | xargs)
 
-envsubst < /dev/stdin
+./bin/esh/esh -o - -

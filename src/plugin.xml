@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.francma.intellij.everforest</id>
     <name>Everforest Theme</name>
-    <version>${VERSION}</version>
+    <version><%= ${VERSION} %></version>
     <vendor email="me@martinfranc.eu" url="https://martinfranc.eu">Martin Franc</vendor>
 
     <description><![CDATA[

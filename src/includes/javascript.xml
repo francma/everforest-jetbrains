@@ -1,210 +1,212 @@
-<!-- Arrow function -->
-<option name="JS.FUNCTION_ARROW">
-<value>
-    <option name="FOREGROUND" value="${orange}" />
-</value>
-</option>
-<!-- Bad character -->
-<option name="JS.BADCHARACTER">
-<value>
-    <option name="BACKGROUND" value="${bg_red}" />
-</value>
-</option>
-<!-- Block comment -->
-<option name="JS.BLOCK_COMMENT">
-<value>
-    <option name="FOREGROUND" value="${grey1}" />
-</value>
-</option>
-<!-- Braces -->
-<option name="JS.BRACES">
-<value>
-    <option name="FOREGROUND" value="${fg}" />
-</value>
-</option>
-<!-- Brackets -->
-<option name="JS.BRACKETS">
-<value>
-    <option name="FOREGROUND" value="${fg}" />
-</value>
-</option>
-<!-- Class -->
-<option name="JS.CLASS">
-<value>
-    <option name="FOREGROUND" value="${green}" />
-</value>
-</option>
-<!-- Comma -->
-<option name="JS.COMMA">
-<value>
-    <option name="FOREGROUND" value="${grey1}" />
-</value>
-</option>
-<!-- Decorator -->
-<option name="JS.DECORATOR">
-<value>
-    <option name="FOREGROUND" value="${green}" />
-</value>
-</option>
-<!-- Dot -->
-<option name="JS.DOT">
-<value>
-    <option name="FOREGROUND" value="${grey1}" />
-</value>
-</option>
-<!-- Exported class -->
-<option name="JS.EXPORTED.CLASS">
-<value>
-    <option name="FOREGROUND" value="${green}" />
-</value>
-</option>
-<!-- Exported function -->
-<option name="JS.EXPORTED.FUNCTION">
-<value>
-    <option name="FOREGROUND" value="${green}" />
-</value>
-</option>
-<!-- Exported variable -->
-<option name="JS.EXPORTED.VARIABLE">
-<value>
-    <option name="FOREGROUND" value="${fg}" />
-</value>
-</option>
-<!-- Global function -->
-<option name="JS.GLOBAL_FUNCTION">
-<value>
-    <option name="FOREGROUND" value="${green}" />
-</value>
-</option>
-<!-- Global variable -->
-<option name="JS.GLOBAL_VARIABLE">
-<value>
-    <option name="FOREGROUND" value="${fg}" />
-</value>
-</option>
-<!-- Instance member function -->
-<option name="JS.INSTANCE_MEMBER_FUNCTION">
-<value>
-    <option name="FOREGROUND" value="${green}" />
-</value>
-</option>
-<!-- Instance member variable -->
-<option name="JS.INSTANCE_MEMBER_VARIABLE">
-<value>
-    <option name="FOREGROUND" value="${fg}" />
-</value>
-</option>
-<!-- Interface -->
-<option name="JS.INTERFACE">
-<value>
-    <option name="FOREGROUND" value="${green}" />
-</value>
-</option>
-<!-- TODO Invalid string escape -->
-<!-- TODO JSDoc tag -->
-<!-- TODO JSDoc tag value -->
-<!-- TODO JSDoc text -->
-<!-- TODO JSDoc type -->
-<!-- Keyword -->
-<option name="JS.KEYWORD">
-<value>
-    <option name="FOREGROUND" value="${red}" />
-</value>
-</option>
-<!-- Label -->
-<option name="JS.LABEL">
-<value>
-    <option name="FOREGROUND" value="${orange}" />
-</value>
-</option>
-<!-- Line comment -->
-<option name="JS.LINE_COMMENT">
-<value>
-    <option name="FOREGROUND" value="${grey1}" />
-</value>
-</option>
-<!-- Local function -->
-<option name="JS.LOCAL_FUNCTION">
-<value>
-    <option name="FOREGROUND" value="${green}" />
-</value>
-</option>
-<!-- Local variable -->
-<option name="JS.LOCAL_VARIABLE">
-<value>
-    <option name="FOREGROUND" value="${fg}" />
-</value>
-</option>
-<!-- Module name -->
-<option name="JS.MODULE_NAME">
-<value>
-    <option name="FOREGROUND" value="${blue}" />
-</value>
-</option>
-<!-- Number -->
-<option name="JS.NUMBER">
-<value>
-    <option name="FOREGROUND" value="${purple}" />
-</value>
-</option>
-<!-- Operation -->
-<option name="JS.OPERATION_SIGN">
-<value>
-    <option name="FOREGROUND" value="${orange}" />
-</value>
-</option>
-<!-- Parameter -->
-<option name="JS.PARAMETER">
-<value>
-    <option name="FOREGROUND" value="${fg}" />
-</value>
-</option>
-<!-- Parenthesis -->
-<option name="JS.PARENTHS">
-<value>
-    <option name="FOREGROUND" value="${fg}" />
-</value>
-</option>
-<!-- Primitive type -->
-<option name="JS.PRIMITIVE.TYPE">
-<value>
-    <option name="FOREGROUND" value="${yellow}" />
-</value>
-</option>
-<!-- TODO Regular expression -->
-<!-- Semicolon -->
-<option name="JS.SEMICOLON">
-<value>
-    <option name="FOREGROUND" value="${grey1}" />
-</value>
-</option>
-<!-- Static member function -->
-<option name="JS.STATIC_MEMBER_FUNCTION">
-<value>
-    <option name="FOREGROUND" value="${green}" />
-</value>
-</option>
-<!-- Static member variable -->
-<option name="JS.STATIC_MEMBER_VARIABLE">
-<value>
-    <option name="FOREGROUND" value="${fg}" />
-</value>
-</option>
-<!-- String -->
-<option name="JS.STRING">
-<value>
-    <option name="FOREGROUND" value="${aqua}" />
-</value>
-</option>
-<!-- Type alias -->
-<option name="JS.TYPE_ALIAS">
-<value>
-    <option name="FOREGROUND" value="${green}"/>
-</value>
-</option>
-<!-- Valid string escape -->
-<option name="JS.VALID_STRING_ESCAPE">
-<value>
-    <option name="FOREGROUND" value="${green}" />
-</value>
-</option>
+<attributes>
+    <!-- Arrow function -->
+    <option name="JS.FUNCTION_ARROW">
+        <value>
+            <option name="FOREGROUND" value="<%= ${orange} %>"/>
+        </value>
+    </option>
+    <!-- Bad character -->
+    <option name="JS.BADCHARACTER">
+        <value>
+            <option name="BACKGROUND" value="<%= ${bg_red} %>"/>
+        </value>
+    </option>
+    <!-- Block comment -->
+    <option name="JS.BLOCK_COMMENT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${grey1} %>"/>
+        </value>
+    </option>
+    <!-- Braces -->
+    <option name="JS.BRACES">
+        <value>
+            <option name="FOREGROUND" value="<%= ${fg} %>"/>
+        </value>
+    </option>
+    <!-- Brackets -->
+    <option name="JS.BRACKETS">
+        <value>
+            <option name="FOREGROUND" value="<%= ${fg} %>"/>
+        </value>
+    </option>
+    <!-- Class -->
+    <option name="JS.CLASS">
+        <value>
+            <option name="FOREGROUND" value="<%= ${green} %>"/>
+        </value>
+    </option>
+    <!-- Comma -->
+    <option name="JS.COMMA">
+        <value>
+            <option name="FOREGROUND" value="<%= ${grey1} %>"/>
+        </value>
+    </option>
+    <!-- Decorator -->
+    <option name="JS.DECORATOR">
+        <value>
+            <option name="FOREGROUND" value="<%= ${green} %>"/>
+        </value>
+    </option>
+    <!-- Dot -->
+    <option name="JS.DOT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${grey1} %>"/>
+        </value>
+    </option>
+    <!-- Exported class -->
+    <option name="JS.EXPORTED.CLASS">
+        <value>
+            <option name="FOREGROUND" value="<%= ${green} %>"/>
+        </value>
+    </option>
+    <!-- Exported function -->
+    <option name="JS.EXPORTED.FUNCTION">
+        <value>
+            <option name="FOREGROUND" value="<%= ${green} %>"/>
+        </value>
+    </option>
+    <!-- Exported variable -->
+    <option name="JS.EXPORTED.VARIABLE">
+        <value>
+            <option name="FOREGROUND" value="<%= ${fg} %>"/>
+        </value>
+    </option>
+    <!-- Global function -->
+    <option name="JS.GLOBAL_FUNCTION">
+        <value>
+            <option name="FOREGROUND" value="<%= ${green} %>"/>
+        </value>
+    </option>
+    <!-- Global variable -->
+    <option name="JS.GLOBAL_VARIABLE">
+        <value>
+            <option name="FOREGROUND" value="<%= ${fg} %>"/>
+        </value>
+    </option>
+    <!-- Instance member function -->
+    <option name="JS.INSTANCE_MEMBER_FUNCTION">
+        <value>
+            <option name="FOREGROUND" value="<%= ${green} %>"/>
+        </value>
+    </option>
+    <!-- Instance member variable -->
+    <option name="JS.INSTANCE_MEMBER_VARIABLE">
+        <value>
+            <option name="FOREGROUND" value="<%= ${fg} %>"/>
+        </value>
+    </option>
+    <!-- Interface -->
+    <option name="JS.INTERFACE">
+        <value>
+            <option name="FOREGROUND" value="<%= ${green} %>"/>
+        </value>
+    </option>
+    <!-- TODO Invalid string escape -->
+    <!-- TODO JSDoc tag -->
+    <!-- TODO JSDoc tag value -->
+    <!-- TODO JSDoc text -->
+    <!-- TODO JSDoc type -->
+    <!-- Keyword -->
+    <option name="JS.KEYWORD">
+        <value>
+            <option name="FOREGROUND" value="<%= ${red} %>"/>
+        </value>
+    </option>
+    <!-- Label -->
+    <option name="JS.LABEL">
+        <value>
+            <option name="FOREGROUND" value="<%= ${orange} %>"/>
+        </value>
+    </option>
+    <!-- Line comment -->
+    <option name="JS.LINE_COMMENT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${grey1} %>"/>
+        </value>
+    </option>
+    <!-- Local function -->
+    <option name="JS.LOCAL_FUNCTION">
+        <value>
+            <option name="FOREGROUND" value="<%= ${green} %>"/>
+        </value>
+    </option>
+    <!-- Local variable -->
+    <option name="JS.LOCAL_VARIABLE">
+        <value>
+            <option name="FOREGROUND" value="<%= ${fg} %>"/>
+        </value>
+    </option>
+    <!-- Module name -->
+    <option name="JS.MODULE_NAME">
+        <value>
+            <option name="FOREGROUND" value="<%= ${blue} %>"/>
+        </value>
+    </option>
+    <!-- Number -->
+    <option name="JS.NUMBER">
+        <value>
+            <option name="FOREGROUND" value="<%= ${purple} %>"/>
+        </value>
+    </option>
+    <!-- Operation -->
+    <option name="JS.OPERATION_SIGN">
+        <value>
+            <option name="FOREGROUND" value="<%= ${orange} %>"/>
+        </value>
+    </option>
+    <!-- Parameter -->
+    <option name="JS.PARAMETER">
+        <value>
+            <option name="FOREGROUND" value="<%= ${fg} %>"/>
+        </value>
+    </option>
+    <!-- Parenthesis -->
+    <option name="JS.PARENTHS">
+        <value>
+            <option name="FOREGROUND" value="<%= ${fg} %>"/>
+        </value>
+    </option>
+    <!-- Primitive type -->
+    <option name="JS.PRIMITIVE.TYPE">
+        <value>
+            <option name="FOREGROUND" value="<%= ${yellow} %>"/>
+        </value>
+    </option>
+    <!-- TODO Regular expression -->
+    <!-- Semicolon -->
+    <option name="JS.SEMICOLON">
+        <value>
+            <option name="FOREGROUND" value="<%= ${grey1} %>"/>
+        </value>
+    </option>
+    <!-- Static member function -->
+    <option name="JS.STATIC_MEMBER_FUNCTION">
+        <value>
+            <option name="FOREGROUND" value="<%= ${green} %>"/>
+        </value>
+    </option>
+    <!-- Static member variable -->
+    <option name="JS.STATIC_MEMBER_VARIABLE">
+        <value>
+            <option name="FOREGROUND" value="<%= ${fg} %>"/>
+        </value>
+    </option>
+    <!-- String -->
+    <option name="JS.STRING">
+        <value>
+            <option name="FOREGROUND" value="<%= ${aqua} %>"/>
+        </value>
+    </option>
+    <!-- Type alias -->
+    <option name="JS.TYPE_ALIAS">
+        <value>
+            <option name="FOREGROUND" value="<%= ${green} %>"/>
+        </value>
+    </option>
+    <!-- Valid string escape -->
+    <option name="JS.VALID_STRING_ESCAPE">
+        <value>
+            <option name="FOREGROUND" value="<%= ${green} %>"/>
+        </value>
+    </option>
+</attributes>

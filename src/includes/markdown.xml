@@ -1,217 +1,219 @@
-<!-- 1st level header -->
-<option name="MARKDOWN_HEADER_LEVEL_1">
-<value>
-    <option name="FOREGROUND" value="${red}" />
-</value>
-</option>
-<!-- 2st level header -->
-<option name="MARKDOWN_HEADER_LEVEL_2">
-<value>
-    <option name="FOREGROUND" value="${orange}" />
-</value>
-</option>
-<!-- 3st level header -->
-<option name="MARKDOWN_HEADER_LEVEL_3">
-<value>
-    <option name="FOREGROUND" value="${yellow}" />
-</value>
-</option>
-<!-- 4st level header -->
-<option name="MARKDOWN_HEADER_LEVEL_4">
-<value>
-    <option name="FOREGROUND" value="${green}" />
-</value>
-</option>
-<!-- 5st level header -->
-<option name="MARKDOWN_HEADER_LEVEL_5">
-<value>
-    <option name="FOREGROUND" value="${blue}" />
-</value>
-</option>
-<!-- 6st level header -->
-<option name="MARKDOWN_HEADER_LEVEL_6">
-<value>
-    <option name="FOREGROUND" value="${purple}" />
-</value>
-</option>
-<!-- Auto link -->
-<option name="MARKDOWN_AUTO_LINK">
-<value>
-    <option name="FOREGROUND" value="${blue}" />
-    <option name="EFFECT_TYPE" value="${EFFECT_BOLD_UNDERSCORED}" />
-    <option name="EFFECT_COLOR" value="${blue}" />
-</value>
-</option>
-<!-- Blockquote -->
-<option name="MARKDOWN_BLOCK_QUOTE">
-<value>
-    <option name="FOREGROUND" value="${fg}" />
-</value>
-</option>
-<!-- Blockquote marker -->
-<option name="MARKDOWN_BLOCK_QUOTE_MARKER">
-<value>
-    <option name="FOREGROUND" value="${grey1}" />
-</value>
-</option>
-<!-- Bold marker -->
-<option name="MARKDOWN_BOLD_MARKER">
-<value>
-    <option name="FOREGROUND" value="${grey1}" />
-</value>
-</option>
-<!-- Bold text -->
-<option name="MARKDOWN_BOLD">
-<value>
-    <option name="FONT_TYPE" value="${FONT_TYPE_BOLD}" />
-</value>
-</option>
-<!-- Code block -->
-<option name="MARKDOWN_CODE_BLOCK">
-<value>
-    <option name="FOREGROUND" value="${aqua}" />
-</value>
-</option>
-<!-- Code fence -->
-<option name="MARKDOWN_CODE_FENCE">
-<value>
-    <option name="FOREGROUND" value="${green}" />
-</value>
-</option>
-<!-- Code span -->
-<option name="MARKDOWN_CODE_SPAN">
-<value>
-    <option name="FOREGROUND" value="${green}" />
-</value>
-</option>
-<!-- Code span marker -->
-<option name="MARKDOWN_CODE_SPAN_MARKER">
-<value>
-    <option name="FOREGROUND" value="${aqua}" />
-</value>
-</option>
-<!-- Explicit link -->
-<option name="MARKDOWN_EXPLICIT_LINK">
-<value>
-    <option name="FOREGROUND" value="${purple}" />
-</value>
-</option>
-<!-- Header marker -->
-<option name="MARKDOWN_HEADER_MARKER">
-<value>
-    <option name="FOREGROUND" value="${grey1}" />
-</value>
-</option>
-<!-- Horizontal rule -->
-<option name="MARKDOWN_HRULE">
-<value>
-    <option name="FOREGROUND" value="${grey1}" />
-</value>
-</option>
-<!-- HTML block -->
-<option name="MARKDOWN_HTML_BLOCK">
-<value>
-</value>
-</option>
-<!-- Image -->
-<option name="MARKDOWN_IMAGE">
-<value>
-    <option name="FOREGROUND" value="${purple}" />
-</value>
-</option>
-<!-- Inline HTML -->
-<option name="MARKDOWN_INLINE_HTML">
-<value>
-    <option name="FOREGROUND" value="${orange}" />
-</value>
-</option>
-<!-- Italic marker -->
-<option name="MARKDOWN_ITALIC_MARKER">
-<value>
-    <option name="FOREGROUND" value="${grey1}" />
-</value>
-</option>
-<!-- Italic text -->
-<option name="MARKDOWN_ITALIC">
-<value>
-    <option name="FONT_TYPE" value="${FONT_TYPE_ITALIC}" />
-</value>
-</option>
-<!-- Link definition -->
-<option name="MARKDOWN_LINK_DEFINITION">
-<value>
-</value>
-</option>
-<!-- Link destination -->
-<option name="MARKDOWN_LINK_DESTINATION">
-<value>
-    <option name="FOREGROUND" value="${blue}" />
-    <option name="EFFECT_TYPE" value="${EFFECT_BOLD_UNDERSCORED}" />
-    <option name="EFFECT_COLOR" value="${blue}" />
-</value>
-</option>
-<!-- Link label -->
-<option name="MARKDOWN_LINK_LABEL">
-<value>
-    <option name="FOREGROUND" value="${purple}" />
-</value>
-</option>
-<!-- Link text -->
-<option name="MARKDOWN_LINK_TEXT">
-<value>
-    <option name="FOREGROUND" value="${purple}" />
-</value>
-</option>
-<!-- Link title -->
-<option name="MARKDOWN_LINK_TITLE">
-<value>
-    <option name="FOREGROUND" value="${green}" />
-</value>
-</option>
-<!-- List item -->
-<option name="MARKDOWN_LIST_ITEM">
-<value>
-</value>
-</option>
-<!-- List marker -->
-<option name="MARKDOWN_LIST_MARKER">
-<value>
-    <option name="FOREGROUND" value="${red}" />
-</value>
-</option>
-<!-- Ordered list -->
-<option name="MARKDOWN_ORDERED_LIST">
-<value>
-</value>
-</option>
-<!-- Reference link -->
-<option name="MARKDOWN_REFERENCE_LINK">
-<value>
-    <option name="FOREGROUND" value="31" />
-</value>
-</option>
-<!-- Strikethrough -->
-<option name="MARKDOWN_STRIKE_THROUGH">
-<value>
-    <option name="FOREGROUND" value="${fg}" />
-    <option name="EFFECT_COLOR" value="${grey1}" />
-    <option name="EFFECT_TYPE" value="${EFFECT_STRIKEOUT}" />
-</value>
-</option>
-<!-- Table separator -->
-<option name="MARKDOWN_TABLE_SEPARATOR">
-<value>
-    <option name="FOREGROUND" value="${grey1}" />
-</value>
-</option>
-<!-- Text -->
-<option name="MARKDOWN_TEXT">
-<value>
-    <option name="FOREGROUND" value="${fg}" />
-</value>
-</option>
-<!-- Unordered list -->
-<option name="MARKDOWN_UNORDERED_LIST">
-<value>
-</value>
-</option>
+<attributes>
+    <!-- 1st level header -->
+    <option name="MARKDOWN_HEADER_LEVEL_1">
+        <value>
+            <option name="FOREGROUND" value="<%= ${red} %>"/>
+        </value>
+    </option>
+    <!-- 2st level header -->
+    <option name="MARKDOWN_HEADER_LEVEL_2">
+        <value>
+            <option name="FOREGROUND" value="<%= ${orange} %>"/>
+        </value>
+    </option>
+    <!-- 3st level header -->
+    <option name="MARKDOWN_HEADER_LEVEL_3">
+        <value>
+            <option name="FOREGROUND" value="<%= ${yellow} %>"/>
+        </value>
+    </option>
+    <!-- 4st level header -->
+    <option name="MARKDOWN_HEADER_LEVEL_4">
+        <value>
+            <option name="FOREGROUND" value="<%= ${green} %>"/>
+        </value>
+    </option>
+    <!-- 5st level header -->
+    <option name="MARKDOWN_HEADER_LEVEL_5">
+        <value>
+            <option name="FOREGROUND" value="<%= ${blue} %>"/>
+        </value>
+    </option>
+    <!-- 6st level header -->
+    <option name="MARKDOWN_HEADER_LEVEL_6">
+        <value>
+            <option name="FOREGROUND" value="<%= ${purple} %>"/>
+        </value>
+    </option>
+    <!-- Auto link -->
+    <option name="MARKDOWN_AUTO_LINK">
+        <value>
+            <option name="FOREGROUND" value="<%= ${blue} %>"/>
+            <option name="EFFECT_TYPE" value="<%= ${EFFECT_BOLD_UNDERSCORED} %>"/>
+            <option name="EFFECT_COLOR" value="<%= ${blue} %>"/>
+        </value>
+    </option>
+    <!-- Blockquote -->
+    <option name="MARKDOWN_BLOCK_QUOTE">
+        <value>
+            <option name="FOREGROUND" value="<%= ${fg} %>"/>
+        </value>
+    </option>
+    <!-- Blockquote marker -->
+    <option name="MARKDOWN_BLOCK_QUOTE_MARKER">
+        <value>
+            <option name="FOREGROUND" value="<%= ${grey1} %>"/>
+        </value>
+    </option>
+    <!-- Bold marker -->
+    <option name="MARKDOWN_BOLD_MARKER">
+        <value>
+            <option name="FOREGROUND" value="<%= ${grey1} %>"/>
+        </value>
+    </option>
+    <!-- Bold text -->
+    <option name="MARKDOWN_BOLD">
+        <value>
+            <option name="FONT_TYPE" value="<%= ${FONT_TYPE_BOLD} %>"/>
+        </value>
+    </option>
+    <!-- Code block -->
+    <option name="MARKDOWN_CODE_BLOCK">
+        <value>
+            <option name="FOREGROUND" value="<%= ${aqua} %>"/>
+        </value>
+    </option>
+    <!-- Code fence -->
+    <option name="MARKDOWN_CODE_FENCE">
+        <value>
+            <option name="FOREGROUND" value="<%= ${green} %>"/>
+        </value>
+    </option>
+    <!-- Code span -->
+    <option name="MARKDOWN_CODE_SPAN">
+        <value>
+            <option name="FOREGROUND" value="<%= ${green} %>"/>
+        </value>
+    </option>
+    <!-- Code span marker -->
+    <option name="MARKDOWN_CODE_SPAN_MARKER">
+        <value>
+            <option name="FOREGROUND" value="<%= ${aqua} %>"/>
+        </value>
+    </option>
+    <!-- Explicit link -->
+    <option name="MARKDOWN_EXPLICIT_LINK">
+        <value>
+            <option name="FOREGROUND" value="<%= ${purple} %>"/>
+        </value>
+    </option>
+    <!-- Header marker -->
+    <option name="MARKDOWN_HEADER_MARKER">
+        <value>
+            <option name="FOREGROUND" value="<%= ${grey1} %>"/>
+        </value>
+    </option>
+    <!-- Horizontal rule -->
+    <option name="MARKDOWN_HRULE">
+        <value>
+            <option name="FOREGROUND" value="<%= ${grey1} %>"/>
+        </value>
+    </option>
+    <!-- HTML block -->
+    <option name="MARKDOWN_HTML_BLOCK">
+        <value>
+        </value>
+    </option>
+    <!-- Image -->
+    <option name="MARKDOWN_IMAGE">
+        <value>
+            <option name="FOREGROUND" value="<%= ${purple} %>"/>
+        </value>
+    </option>
+    <!-- Inline HTML -->
+    <option name="MARKDOWN_INLINE_HTML">
+        <value>
+            <option name="FOREGROUND" value="<%= ${orange} %>"/>
+        </value>
+    </option>
+    <!-- Italic marker -->
+    <option name="MARKDOWN_ITALIC_MARKER">
+        <value>
+            <option name="FOREGROUND" value="<%= ${grey1} %>"/>
+        </value>
+    </option>
+    <!-- Italic text -->
+    <option name="MARKDOWN_ITALIC">
+        <value>
+            <option name="FONT_TYPE" value="<%= ${FONT_TYPE_ITALIC} %>"/>
+        </value>
+    </option>
+    <!-- Link definition -->
+    <option name="MARKDOWN_LINK_DEFINITION">
+        <value>
+        </value>
+    </option>
+    <!-- Link destination -->
+    <option name="MARKDOWN_LINK_DESTINATION">
+        <value>
+            <option name="FOREGROUND" value="<%= ${blue} %>"/>
+            <option name="EFFECT_TYPE" value="<%= ${EFFECT_BOLD_UNDERSCORED} %>"/>
+            <option name="EFFECT_COLOR" value="<%= ${blue} %>"/>
+        </value>
+    </option>
+    <!-- Link label -->
+    <option name="MARKDOWN_LINK_LABEL">
+        <value>
+            <option name="FOREGROUND" value="<%= ${purple} %>"/>
+        </value>
+    </option>
+    <!-- Link text -->
+    <option name="MARKDOWN_LINK_TEXT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${purple} %>"/>
+        </value>
+    </option>
+    <!-- Link title -->
+    <option name="MARKDOWN_LINK_TITLE">
+        <value>
+            <option name="FOREGROUND" value="<%= ${green} %>"/>
+        </value>
+    </option>
+    <!-- List item -->
+    <option name="MARKDOWN_LIST_ITEM">
+        <value>
+        </value>
+    </option>
+    <!-- List marker -->
+    <option name="MARKDOWN_LIST_MARKER">
+        <value>
+            <option name="FOREGROUND" value="<%= ${red} %>"/>
+        </value>
+    </option>
+    <!-- Ordered list -->
+    <option name="MARKDOWN_ORDERED_LIST">
+        <value>
+        </value>
+    </option>
+    <!-- Reference link -->
+    <option name="MARKDOWN_REFERENCE_LINK">
+        <value>
+            <option name="FOREGROUND" value="31"/>
+        </value>
+    </option>
+    <!-- Strikethrough -->
+    <option name="MARKDOWN_STRIKE_THROUGH">
+        <value>
+            <option name="FOREGROUND" value="<%= ${fg} %>"/>
+            <option name="EFFECT_COLOR" value="<%= ${grey1} %>"/>
+            <option name="EFFECT_TYPE" value="<%= ${EFFECT_STRIKEOUT} %>"/>
+        </value>
+    </option>
+    <!-- Table separator -->
+    <option name="MARKDOWN_TABLE_SEPARATOR">
+        <value>
+            <option name="FOREGROUND" value="<%= ${grey1} %>"/>
+        </value>
+    </option>
+    <!-- Text -->
+    <option name="MARKDOWN_TEXT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${fg} %>"/>
+        </value>
+    </option>
+    <!-- Unordered list -->
+    <option name="MARKDOWN_UNORDERED_LIST">
+        <value>
+        </value>
+    </option>
+</attributes>

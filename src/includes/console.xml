@@ -1,138 +1,140 @@
-<!-- ANSI colors and Console -->
-<option name="CONSOLE_BLACK_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${bg3}" />
-  </value>
-</option>
-<option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${blue}" />
-  </value>
-</option>
-<option name="CONSOLE_BLUE_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${blue}" />
-  </value>
-</option>
-<option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${aqua}" />
-  </value>
-</option>
-<option name="CONSOLE_CYAN_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${aqua}" />
-  </value>
-</option>
-<option name="CONSOLE_DARKGRAY_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${bg3}" />
-  </value>
-</option>
-<option name="CONSOLE_ERROR_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${red}" />
-  </value>
-</option>
-<option name="CONSOLE_GRAY_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${fg}" />
-  </value>
-</option>
-<option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${green}" />
-  </value>
-</option>
-<option name="CONSOLE_GREEN_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${green}" />
-  </value>
-</option>
-<option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${purple}" />
-  </value>
-</option>
-<option name="CONSOLE_MAGENTA_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${purple}" />
-  </value>
-</option>
-<option name="CONSOLE_NORMAL_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${fg}" />
-  </value>
-</option>
-<option name="CONSOLE_RED_BRIGHT_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${red}" />
-  </value>
-</option>
-<option name="CONSOLE_RED_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${red}" />
-  </value>
-</option>
-<option name="CONSOLE_SYSTEM_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${blue}" />
-  </value>
-</option>
-<option name="CONSOLE_USER_INPUT">
-  <value>
-    <option name="FOREGROUND" value="${fg}" />
-  </value>
-</option>
-<option name="CONSOLE_WHITE_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${fg}" />
-  </value>
-</option>
-<option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${yellow}" />
-  </value>
-</option>
-<option name="CONSOLE_YELLOW_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${yellow}" />
-  </value>
-</option>
-<!-- Log console -->
-<option name="LOG_DEBUG_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${blue}" />
-  </value>
-</option>
-<option name="LOG_ERROR_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${red}" />
-  </value>
-</option>
-<option name="LOG_EXPIRED_ENTRY">
-  <value>
-    <option name="FOREGROUND" value="${grey1}" />
-  </value>
-</option>
-<option name="LOG_INFO_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${yellow}" />
-  </value>
-</option>
-<option name="LOG_VERBOSE_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${aqua}" />
-  </value>
-</option>
-<option name="LOG_WARNING_OUTPUT">
-  <value>
-    <option name="FOREGROUND" value="${orange}" />
-  </value>
-</option>
-<!-- Terminal -->
-<option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
-  <value>
-    <option name="BACKGROUND" value="${bg4}" />
-  </value>
-</option>
+<attributes>
+    <!-- ANSI colors and Console -->
+    <option name="CONSOLE_BLACK_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${bg3} %>"/>
+        </value>
+    </option>
+    <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${blue} %>"/>
+        </value>
+    </option>
+    <option name="CONSOLE_BLUE_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${blue} %>"/>
+        </value>
+    </option>
+    <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${aqua} %>"/>
+        </value>
+    </option>
+    <option name="CONSOLE_CYAN_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${aqua} %>"/>
+        </value>
+    </option>
+    <option name="CONSOLE_DARKGRAY_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${bg3} %>"/>
+        </value>
+    </option>
+    <option name="CONSOLE_ERROR_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${red} %>"/>
+        </value>
+    </option>
+    <option name="CONSOLE_GRAY_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${fg} %>"/>
+        </value>
+    </option>
+    <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${green} %>"/>
+        </value>
+    </option>
+    <option name="CONSOLE_GREEN_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${green} %>"/>
+        </value>
+    </option>
+    <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${purple} %>"/>
+        </value>
+    </option>
+    <option name="CONSOLE_MAGENTA_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${purple} %>"/>
+        </value>
+    </option>
+    <option name="CONSOLE_NORMAL_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${fg} %>"/>
+        </value>
+    </option>
+    <option name="CONSOLE_RED_BRIGHT_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${red} %>"/>
+        </value>
+    </option>
+    <option name="CONSOLE_RED_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${red} %>"/>
+        </value>
+    </option>
+    <option name="CONSOLE_SYSTEM_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${blue} %>"/>
+        </value>
+    </option>
+    <option name="CONSOLE_USER_INPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${fg} %>"/>
+        </value>
+    </option>
+    <option name="CONSOLE_WHITE_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${fg} %>"/>
+        </value>
+    </option>
+    <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${yellow} %>"/>
+        </value>
+    </option>
+    <option name="CONSOLE_YELLOW_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${yellow} %>"/>
+        </value>
+    </option>
+    <!-- Log console -->
+    <option name="LOG_DEBUG_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${blue} %>"/>
+        </value>
+    </option>
+    <option name="LOG_ERROR_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${red} %>"/>
+        </value>
+    </option>
+    <option name="LOG_EXPIRED_ENTRY">
+        <value>
+            <option name="FOREGROUND" value="<%= ${grey1} %>"/>
+        </value>
+    </option>
+    <option name="LOG_INFO_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${yellow} %>"/>
+        </value>
+    </option>
+    <option name="LOG_VERBOSE_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${aqua} %>"/>
+        </value>
+    </option>
+    <option name="LOG_WARNING_OUTPUT">
+        <value>
+            <option name="FOREGROUND" value="<%= ${orange} %>"/>
+        </value>
+    </option>
+    <!-- Terminal -->
+    <option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
+        <value>
+            <option name="BACKGROUND" value="<%= ${bg4} %>"/>
+        </value>
+    </option>
+</attributes>
