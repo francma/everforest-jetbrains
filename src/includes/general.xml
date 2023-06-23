@@ -176,3 +176,45 @@
 </value>
 </option>
 
+<!-- SEARCH RESULTS -->
+<!-- Search result -->
+<option name="SEARCH_RESULT_ATTRIBUTES">
+<value>
+    <option name="FOREGROUND" value="${bg0}" />
+    <option name="BACKGROUND" value="${green}" />
+</value>
+</option>
+<!-- Search result (write access) -->
+<option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
+<value>
+    <option name="FOREGROUND" value="${bg0}" />
+    <option name="BACKGROUND" value="${red}" />
+</value>
+</option>
+<!-- Text search result -->
+<option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
+<value>
+    <option name="FOREGROUND" value="${bg0}" />
+    <option name="BACKGROUND" value="${green}" />
+</value>
+</option>
+
+<!-- LIVE TEMPLATES -->
+<!-- Active segment -->
+<option name="LIVE_TEMPLATE_ATTRIBUTES">
+<value>
+    <option name="EFFECT_COLOR" value="${red}" />
+</value>
+</option>
+<!-- Inactive segment -->
+<option name="LIVE_TEMPLATE_INACTIVE_SEGMENT">
+<value>
+    <option name="EFFECT_COLOR" value="${grey1}" />
+</value>
+</option>
+<!-- Template variable -->
+<option name="TEMPLATE_VARIABLE_ATTRIBUTES">
+<value>
+    <option name="FOREGROUND" value="${grey1}" />
+</value>
+</option>
