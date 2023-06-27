@@ -1,0 +1,30 @@
+<attributes>
+    <option name="DIFF_MODIFIED">
+        <value>
+            <option name="BACKGROUND" value="<%= ${bg_blue} %>"/>
+            <option name="FOREGROUND" value="<%= ${bg1} %>"/>
+            <option name="ERROR_STRIPE_COLOR" value="<%= ${bg_blue} %>"/>
+        </value>
+    </option>
+    <option name="DIFF_CONFLICT">
+        <value>
+            <option name="BACKGROUND" value="<%= ${bg_red} %>"/>
+            <option name="FOREGROUND" value="<%= ${bg1} %>"/>
+            <option name="ERROR_STRIPE_COLOR" value="<%= ${red} %>"/>
+        </value>
+    </option>
+    <option name="DIFF_DELETED">
+        <value>
+            <option name="BACKGROUND" value="<%= ${bg_red} %>"/>
+            <option name="FOREGROUND" value="<%= ${bg1} %>"/>
+            <option name="ERROR_STRIPE_COLOR" value="<%= ${bg_red} %>"/>
+        </value>
+    </option>
+    <option name="DIFF_INSERTED">
+        <value>
+            <option name="BACKGROUND" value="<%= ${bg_green} %>"/>
+            <option name="FOREGROUND" value="<%= ${bg1} %>"/>
+            <option name="ERROR_STRIPE_COLOR" value="<%= ${bg_green} %>"/>
+        </value>
+    </option>
+</attributes>

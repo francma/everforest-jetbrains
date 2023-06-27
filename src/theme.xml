@@ -121,6 +121,9 @@
         <!-- Recent location selection -->
         <option name="RECENT_LOCATIONS_SELECTION" value="<%= ${bg0} %>"/>
         <!-- Tooltip -->
+
+        <!-- DIFF (see includes/diff.xml) -->
+        <option name="DIFF_SEPARATOR_WAVE" value="<%= ${bg4} %>" />
     </colors>
     <attributes>
         <% for file in src/includes/*; do %>
